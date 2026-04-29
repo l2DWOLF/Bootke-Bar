@@ -1,0 +1,520 @@
+{
+  "categories": [
+    {
+      "id": "beers",
+      "order": 1,
+      "name": {
+        "en": "Beers",
+        "he": "בירות"
+      },
+      "subCategories": [
+        {
+          "id": "draft",
+          "order": 1,
+          "name": {
+            "en": "Draft Beer",
+            "he": "מהחבית"
+          },
+          "items": [
+            {
+              "id": "goldstar",
+              "order": 1,
+              "name": {
+                "en": "Unfiltered Goldstar",
+                "he": "גולדסטאר לא מסוננת"
+              },
+              "price": "34/39"
+            },
+            {
+              "id": "carlsberg",
+              "order": 2,
+              "name": {
+                "en": "Carlsberg",
+                "he": "קרלסברג"
+              },
+              "price": "32/37"
+            },
+            {
+              "id": "carlsberg_luma",
+              "order": 3,
+              "name": {
+                "en": "Carlsberg Luma",
+                "he": "קרלסברג לומה"
+              },
+              "price": "34/39"
+            },
+            {
+              "id": "tuborg",
+              "order": 4,
+              "name": {
+                "en": "Tuborg",
+                "he": "טובורג"
+              },
+              "price": "32/37"
+            },
+            {
+              "id": "blanc_1664",
+              "order": 5,
+              "name": {
+                "en": "1664 Blanc",
+                "he": "בלאנק 1664"
+              },
+              "price": "34/39"
+            },
+            {
+              "id": "weihenstephan",
+              "order": 6,
+              "name": {
+                "en": "Weihenstephan",
+                "he": "ויינשטפן"
+              },
+              "price": "34/39"
+            },
+            {
+              "id": "paulaner",
+              "order": 7,
+              "name": {
+                "en": "Paulaner",
+                "he": "פאולנר"
+              },
+              "price": "34/39"
+            },
+            {
+              "id": "shapira_lager",
+              "order": 8,
+              "name": {
+                "en": "Shapira Lager",
+                "he": "שפירא לאגר"
+              },
+              "price": "34/39"
+            },
+            {
+              "id": "shapira_ipa",
+              "order": 9,
+              "name": {
+                "en": "Shapira IPA",
+                "he": "שפירא IPA"
+              },
+              "price": "34/39"
+            },
+            {
+              "id": "shapira_wheat",
+              "order": 10,
+              "name": {
+                "en": "Shapira Wheat",
+                "he": "שפירא חיטה"
+              },
+              "price": "34/39"
+            },
+            {
+              "id": "shapira_pale_ale",
+              "order": 11,
+              "name": {
+                "en": "Shapira Pale Ale",
+                "he": "שפירא פייל אייל"
+              },
+              "price": "34/39"
+            }
+          ]
+        },
+        {
+          "id": "bottled",
+          "order": 2,
+          "name": {
+            "en": "Bottled Beer",
+            "he": "בבקבוק"
+          },
+          "items": [
+            {
+              "id": "heineken",
+              "order": 1,
+              "name": {
+                "en": "Heineken",
+                "he": "הייניקן"
+              },
+              "price": 28
+            },
+            {
+              "id": "sol",
+              "order": 2,
+              "name": {
+                "en": "Sol",
+                "he": "סול"
+              },
+              "price": 28
+            },
+            {
+              "id": "breezer",
+              "order": 3,
+              "name": {
+                "en": "Breezer Flavors",
+                "he": "בריזר בטעמים"
+              },
+              "price": 30
+            },
+            {
+              "id": "red_stripe",
+              "order": 4,
+              "name": {
+                "en": "Red Stripe",
+                "he": "רד סטרייפ"
+              },
+              "price": 29
+            },
+            {
+              "id": "corona",
+              "order": 5,
+              "name": {
+                "en": "Corona",
+                "he": "קורונה"
+              },
+              "price": 30
+            },
+            {
+              "id": "stella",
+              "order": 6,
+              "name": {
+                "en": "Stella",
+                "he": "סטלה"
+              },
+              "price": 29
+            },
+            {
+              "id": "blanc",
+              "order": 7,
+              "name": {
+                "en": "Blanc 1664",
+                "he": "בלאנק"
+              },
+              "price": 32
+            },
+            {
+              "id": "kasteel_rouge",
+              "order": 8,
+              "name": {
+                "en": "Kasteel Rouge",
+                "he": "קסטיל רוז'"
+              },
+              "price": 34
+            },
+            {
+              "id": "liefmans",
+              "order": 9,
+              "name": {
+                "en": "Liefmans",
+                "he": "ליפמנס"
+              },
+              "price": 33
+            },
+            {
+              "id": "weihenstephan_vitus",
+              "order": 10,
+              "name": {
+                "en": "Weihenstephan Vitus",
+                "he": "ויינשטפן ויטוס"
+              },
+              "price": 36
+            },
+            {
+              "id": "maredsous",
+              "order": 11,
+              "name": {
+                "en": "Maredsous",
+                "he": "מרדסו"
+              },
+              "price": 36
+            },
+            {
+              "id": "guinness",
+              "order": 12,
+              "name": {
+                "en": "Guinness",
+                "he": "גינס"
+              },
+              "price": 30
+            },
+            {
+              "id": "malka",
+              "order": 13,
+              "name": {
+                "en": "Malka Blonde",
+                "he": "מלכה בהירה"
+              },
+              "price": 32
+            },
+            {
+              "id": "negev_oasis",
+              "order": 14,
+              "name": {
+                "en": "Negev Oasis",
+                "he": "נגב אואזיס"
+              },
+              "price": 32
+            },
+            {
+              "id": "shikma",
+              "order": 15,
+              "name": {
+                "en": "Shikma",
+                "he": "שקמה"
+              },
+              "price": 32
+            },
+            {
+              "id": "somersby",
+              "order": 16,
+              "name": {
+                "en": "Somersby (Apple / Mango)",
+                "he": "סומרסבי תפוחים / מנגו"
+              },
+              "price": 32
+            },
+            {
+              "id": "daura",
+              "order": 17,
+              "name": {
+                "en": "Daura (Gluten Free)",
+                "he": "דאורה (ללא גלוטן)"
+              },
+              "price": 30
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hot_drinks_alcoholic",
+      "order": 2,
+      "name": {
+        "en": "Hot Alcoholic Drinks",
+        "he": "חם ואלכוהולי"
+      },
+      "subCategories": [
+        {
+          "id": "hot_alc",
+          "order": 1,
+          "name": {
+            "en": "Hot Alcoholic",
+            "he": "חם ואלכוהולי"
+          },
+          "items": [
+            {
+              "id": "sangria_hot",
+              "order": 1,
+              "name": {
+                "en": "Hot Sangria",
+                "he": "סנגריה חמה"
+              },
+              "price": 38
+            },
+            {
+              "id": "cider_hot",
+              "order": 2,
+              "name": {
+                "en": "Hot Cider",
+                "he": "סיידר חם"
+              },
+              "price": 50
+            },
+            {
+              "id": "irish_coffee",
+              "order": 3,
+              "name": {
+                "en": "Irish Coffee",
+                "he": "קפה אירי"
+              },
+              "price": 54
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cocktails",
+      "order": 3,
+      "name": {
+        "en": "Cocktails & Mixed Drinks",
+        "he": "קוקטיילים וערבובים"
+      },
+      "subCategories": [
+        {
+          "id": "mixed",
+          "order": 1,
+          "name": {
+            "en": "Mixed Drinks",
+            "he": "ערבובים"
+          },
+          "items": [
+            {
+              "id": "vodka_xl",
+              "order": 1,
+              "name": {
+                "en": "XL Vodka",
+                "he": "וודקה XL"
+              },
+              "price": 58
+            },
+            {
+              "id": "vodka_premium",
+              "order": 2,
+              "name": {
+                "en": "XL Vodka Premium",
+                "he": "וודקה XL פרימיום"
+              },
+              "price": 65
+            },
+            {
+              "id": "gin_tonic",
+              "order": 3,
+              "name": {
+                "en": "Gin & Tonic",
+                "he": "ג'ין טוניק"
+              },
+              "price": 60
+            },
+            {
+              "id": "arak_lemon",
+              "order": 4,
+              "name": {
+                "en": "Arak Lemon",
+                "he": "ערק לימונים"
+              },
+              "price": 49
+            }
+          ]
+        },
+        {
+          "id": "cocktails",
+          "order": 2,
+          "name": {
+            "en": "Cocktails",
+            "he": "קוקטיילים"
+          },
+          "items": [
+            {
+              "id": "aperol_spritz",
+              "order": 1,
+              "name": {
+                "en": "Aperol Spritz",
+                "he": "אפרול שפריץ"
+              },
+              "price": 48
+            },
+            {
+              "id": "margarita",
+              "order": 2,
+              "name": {
+                "en": "Margarita",
+                "he": "מרגריטה קלאסית"
+              },
+              "price": 58
+            },
+            {
+              "id": "mojito",
+              "order": 3,
+              "name": {
+                "en": "Mojito",
+                "he": "מוחיטו"
+              },
+              "price": 58
+            },
+            {
+              "id": "negroni",
+              "order": 4,
+              "name": {
+                "en": "Negroni",
+                "he": "נגרוני"
+              },
+              "price": 60
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bottles",
+      "order": 4,
+      "name": {
+        "en": "Bottles",
+        "he": "בקבוקים"
+      },
+      "subCategories": [
+        {
+          "id": "bottles_+_mixers",
+          "order": 1,
+          "name": {
+            "en": "Bottles + Mixers",
+            "he": "בקבוקים (כולל ערבובים)"
+          },
+          "items": [
+            {
+              "id": "stoli_/_finlandia",
+              "order": 1,
+              "name": {
+                "en": "Stoli / Finlandia",
+                "he": "סטולי / פינלנדיה"
+              },
+              "price": 600
+            },
+            {
+              "id": "beluga",
+              "order": 2,
+              "name": {
+                "en": "Beluga",
+                "he": "בלוגה"
+              },
+              "price": 900
+            },
+            {
+              "id": "arak_elite",
+              "order": 3,
+              "name": {
+                "en": "Arak Elite",
+                "he": "ערק עלית"
+              },
+              "price": 360
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wine",
+      "order": 5,
+      "name": {
+        "en": "Wine",
+        "he": "יין"
+      },
+      "subCategories": [
+        {
+          "id": "glass",
+          "order": 1,
+          "name": {
+            "en": "Glass",
+            "he": "בכוסות"
+          },
+          "items": [
+            {
+              "id": "\"midbar\"_-_white_/_red_/_rose",
+              "order": 1,
+              "name": {
+                "en": "\"Midbar\" - white / red / rose",
+                "he": "\"מדבר\" - לבן / אדום / רוזה"
+              },
+              "price": 30
+            },
+            {
+              "id": "cava",
+              "order": 2,
+              "name": {
+                "en": "Cava",
+                "he": "קאווה"
+              },
+              "price": 34
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
