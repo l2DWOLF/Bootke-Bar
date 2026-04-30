@@ -196,7 +196,7 @@ ul {
     main {
         min-width: 100vw;
         column-count: 1;
-        padding: 1em 4em;
+        padding: 1em 2em;
     }
 
     .category {
