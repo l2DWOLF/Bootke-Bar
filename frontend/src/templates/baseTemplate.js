@@ -14,7 +14,7 @@ export function baseTemplate({ title, main, lang = "en" }) {
   <header>
     <nav class="navbar">
       <a href="./index.html">
-        <img class="logo" src="../public/logo-${lang}.png" alt="Bootke Bar Logo">
+        <img class="logo" src="./logo-${lang}.png" alt="Bootke Bar Logo">
       </a>
       <div class="nav-lang-container">
         <a href="./menu-he.html" class="nav-lang ${lang === "he" ? "active" : ""}">תפריט</a>
