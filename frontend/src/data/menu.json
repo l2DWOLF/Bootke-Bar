@@ -13,7 +13,7 @@
           "order": 1,
           "name": {
             "en": "Draft Beer",
-            "he": "מהחבית"
+            "he": "בירות מהחבית"
           },
           "items": [
             {
@@ -122,7 +122,7 @@
           "order": 2,
           "name": {
             "en": "Bottled Beer",
-            "he": "בבקבוק"
+            "he": "בירות מבקבוק"
           },
           "items": [
             {
@@ -940,11 +940,11 @@
       },
       "subCategories": [
         {
-          "id": "cold_drinks",
+          "id": "glass_bottles",
           "order": 1,
           "name": {
-            "en": "Cold Drinks",
-            "he": "שתיה קלה"
+            "en": "Glass Bottles",
+            "he": "בקבוקי זכוכית"
           },
           "items": [
             {
@@ -966,10 +966,10 @@
               "price": 14
             },
             {
-              "id": "fuze-tea_(iced_tea)",
+              "id": "fuze-team_(iced_tea).",
               "order": 3,
               "name": {
-                "en": "Fuze-Tea (Iced Tea)",
+                "en": "Fuze-Team (Iced Tea).",
                 "he": "פיוזטי"
               },
               "price": 14
@@ -988,7 +988,7 @@
               "order": 5,
               "name": {
                 "en": "Fresh Orange Juice",
-                "he": "תפוזים סחוט טרי"
+                "he": "תפוזים סחוט"
               },
               "price": "20/25"
             },
@@ -1027,6 +1027,153 @@
                 "he": "סן פלגרינו"
               },
               "price": 12
+            }
+          ]
+        },
+        {
+          "id": "cans",
+          "order": 2,
+          "name": {
+            "en": "Cans",
+            "he": "פחיות"
+          },
+          "items": [
+            {
+              "id": "coca-cola_/_zero",
+              "order": 1,
+              "name": {
+                "en": "Coca-Cola / Zero",
+                "he": "קולה / זירו"
+              },
+              "price": 12
+            },
+            {
+              "id": "sprite_/_zero",
+              "order": 2,
+              "name": {
+                "en": "Sprite / Zero",
+                "he": "ספרייט / זירו"
+              },
+              "price": 12
+            },
+            {
+              "id": "fanta",
+              "order": 3,
+              "name": {
+                "en": "Fanta",
+                "he": "פאנטה"
+              },
+              "price": 12
+            },
+            {
+              "id": "xl_(energy_drink)",
+              "order": 4,
+              "name": {
+                "en": "XL (Energy Drink)",
+                "he": "XL"
+              },
+              "price": 12
+            },
+            {
+              "id": "water",
+              "order": 5,
+              "name": {
+                "en": "Water",
+                "he": "מים"
+              },
+              "price": 12
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hot_drinks",
+      "order": 9,
+      "name": {
+        "en": "Hot Drinks",
+        "he": "שתיה חמה"
+      },
+      "subCategories": [
+        {
+          "id": "hot_drinks",
+          "order": 1,
+          "name": {
+            "en": "Hot Drinks",
+            "he": "שתיה חמה"
+          },
+          "items": [
+            {
+              "id": "espresso",
+              "order": 1,
+              "name": {
+                "en": "Espresso",
+                "he": "אספרסו"
+              },
+              "price": 10
+            },
+            {
+              "id": "cappuccino",
+              "order": 2,
+              "name": {
+                "en": "Cappuccino",
+                "he": "הפוך"
+              },
+              "price": "12/15"
+            },
+            {
+              "id": "tקש",
+              "order": 3,
+              "name": {
+                "en": "Tea",
+                "he": "תה"
+              },
+              "price": 15
+            },
+            {
+              "id": "black_coffee",
+              "order": 4,
+              "name": {
+                "en": "Black Coffee",
+                "he": "קפה שחור"
+              },
+              "price": 12
+            },
+            {
+              "id": "americano",
+              "order": 5,
+              "name": {
+                "en": "Americano",
+                "he": "אמריקנו"
+              },
+              "price": "12/15"
+            },
+            {
+              "id": "chai_latte",
+              "order": 6,
+              "name": {
+                "en": "Chai Latte",
+                "he": "צ'אי לאטה"
+              },
+              "price": 18
+            },
+            {
+              "id": "sahlab",
+              "order": 7,
+              "name": {
+                "en": "Sahlab",
+                "he": "סחלב"
+              },
+              "price": 20
+            },
+            {
+              "id": "hot_cider",
+              "order": 8,
+              "name": {
+                "en": "Hot Cider",
+                "he": "סיידר חם"
+              },
+              "price": 25
             }
           ]
         }

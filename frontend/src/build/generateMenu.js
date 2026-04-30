@@ -40,6 +40,6 @@ export function generateMenu(lang = "he"){
     return baseTemplate({
         title: "Bootke Bar Menu",
         lang,
-        body: `<main>${htmlContent}</main>`
+        main: `<main>${htmlContent}</main>`
     });
 };
