@@ -261,8 +261,26 @@
               "price": 32
             },
             {
-              "id": "somersby",
+              "id": "jem's",
               "order": 16,
+              "name": {
+                "en": "Jem's",
+                "he": "ג'מס"
+              },
+              "price": 32
+            },
+            {
+              "id": "gibor",
+              "order": 17,
+              "name": {
+                "en": "Gibor",
+                "he": "גיבור"
+              },
+              "price": 32
+            },
+            {
+              "id": "somersby",
+              "order": 18,
               "name": {
                 "en": "Somersby (Apple / Mango)",
                 "he": "סומרסבי תפוחים / מנגו"
@@ -271,7 +289,7 @@
             },
             {
               "id": "daura",
-              "order": 17,
+              "order": 19,
               "name": {
                 "en": "Daura (Gluten Free)",
                 "he": "דאורה (ללא גלוטן)"
@@ -380,6 +398,15 @@
                 "he": "ערק לימונים"
               },
               "price": 49
+            },
+            {
+              "id": "lemondate-mint_slushy",
+              "order": 5,
+              "name": {
+                "en": "Lemon-Mint Slushy",
+                "he": "לימונענע גרוס"
+              },
+              "price": "35/55"
             }
           ]
         },
@@ -426,6 +453,15 @@
                 "he": "נגרוני"
               },
               "price": 60
+            },
+            {
+              "id": "cobra",
+              "order": 5,
+              "name": {
+                "en": "Cobra",
+                "he": "קוברה"
+              },
+              "price": 64
             }
           ]
         }
@@ -511,6 +547,486 @@
                 "he": "קאווה"
               },
               "price": 34
+            }
+          ]
+        },
+        {
+          "id": "red",
+          "order": 2,
+          "name": {
+            "en": "Red",
+            "he": "אדומים"
+          },
+          "items": [
+            {
+              "id": "gamla_cabarnet",
+              "order": 1,
+              "name": {
+                "en": "Gamla Cabarnet",
+                "he": "גמלא קברנה"
+              },
+              "price": 229
+            },
+            {
+              "id": "yarden_merlot",
+              "order": 2,
+              "name": {
+                "en": "Yarden Merlot",
+                "he": "ירדן מרלו"
+              },
+              "price": 269
+            },
+            {
+              "id": "yarden_cabarnet_frank",
+              "order": 3,
+              "name": {
+                "en": "Yarden Cabarnet Frank",
+                "he": "ירדן קברנה פרנק"
+              },
+              "price": 289
+            }
+          ]
+        },
+        {
+          "id": "white",
+          "order": 3,
+          "name": {
+            "en": "White",
+            "he": "לבנים"
+          },
+          "items": [
+            {
+              "id": "blue_nun_gewurtz",
+              "order": 1,
+              "name": {
+                "en": "Blue Nun Gewurtz",
+                "he": "בלו נאן גוורץ"
+              },
+              "price": 152
+            },
+            {
+              "id": "dalton_sauvignon_blanc",
+              "order": 2,
+              "name": {
+                "en": "Dalton Sauvignon Blanc",
+                "he": "דלתון סוביניון בלאן"
+              },
+              "price": 179
+            },
+            {
+              "id": "gamla_chardonnay",
+              "order": 3,
+              "name": {
+                "en": "Gamla Chardonnay",
+                "he": "גמלא שרדונה"
+              },
+              "price": 220
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "snacks_&_appetizers",
+      "order": 6,
+      "name": {
+        "en": "Snacks & Appetizers",
+        "he": "נשנושים"
+      },
+      "subCategories": [
+        {
+          "id": "snacks_&_appetizers",
+          "order": 1,
+          "name": {
+            "en": "Snacks & Appetizers",
+            "he": "נשנושים"
+          },
+          "items": [
+            {
+              "id": "pretzels_/_peanuts",
+              "order": 1,
+              "name": {
+                "en": "Pretzels / Peanuts",
+                "he": "בייגלה / בוטנים"
+              },
+              "price": 18
+            },
+            {
+              "id": "nachos",
+              "order": 2,
+              "name": {
+                "en": "Nachos",
+                "he": "נאצ'וס"
+              },
+              "price": 30
+            },
+            {
+              "id": "vegetables_platter",
+              "order": 3,
+              "name": {
+                "en": "Vegetables Platter",
+                "he": "פלטת ירקות"
+              },
+              "price": 35
+            },
+            {
+              "id": "french_fries",
+              "order": 4,
+              "name": {
+                "en": "French Fries",
+                "he": "צ'יפס"
+              },
+              "price": 30
+            },
+            {
+              "id": "mixed_fries",
+              "order": 5,
+              "name": {
+                "en": "Mixed Fries",
+                "he": "מיקס צ'יפס"
+              },
+              "price": 37
+            },
+            {
+              "id": "onion_rings",
+              "order": 6,
+              "name": {
+                "en": "Onion Rings",
+                "he": "טבעות בצל"
+              },
+              "price": 37
+            },
+            {
+              "id": "chicken_tenders/strips",
+              "order": 7,
+              "name": {
+                "en": "Chicken Tenders/Strips",
+                "he": "שניצלונים"
+              },
+              "price": 49
+            },
+            {
+              "id": "small_chicken_tenders_&_fries",
+              "order": 8,
+              "name": {
+                "en": "Chicken Tenders &  Small Fries",
+                "he": "שניצלונים וצ'יפס קטן"
+              },
+              "price": 59
+            },
+            {
+              "id": "chicken_tenders_&_large_fries",
+              "order": 9,
+              "name": {
+                "en": "Chicken Tenders & Large Fries",
+                "he": "שניצלונים וצ'יפס גדול"
+              },
+              "price": 76
+            },
+            {
+              "id": "mixed_fried_platter",
+              "order": 10,
+              "name": {
+                "en": "Mixed Fries Platter",
+                "he": "פלטת מטוגנים"
+              },
+              "price": 88
+            },
+            {
+              "id": "chicken_wings",
+              "order": 11,
+              "name": {
+                "en": "Chicken Wings",
+                "he": "כנפיים"
+              },
+              "price": 46
+            },
+            {
+              "id": "hot_dog",
+              "order": 12,
+              "name": {
+                "en": "Hot Dog",
+                "he": "נקניקיה בלחמניה"
+              },
+              "price": 25
+            },
+            {
+              "id": "daily_salad",
+              "order": 13,
+              "name": {
+                "en": "Daily Salad",
+                "he": "סלט היום"
+              },
+              "price": 44
+            },
+            {
+              "id": "watermelon_&_feta_cheese",
+              "order": 14,
+              "name": {
+                "en": "Watermelon & Feta Cheese",
+                "he": "אבטיח בולגרית"
+              },
+              "price": 45
+            },
+            {
+              "id": "fruit_platter",
+              "order": 15,
+              "name": {
+                "en": "Fruit Platter",
+                "he": "פלטת פירות"
+              },
+              "price": 69
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pizza",
+      "order": 7,
+      "name": {
+        "en": "Pizza",
+        "he": "פיצות"
+      },
+      "subCategories": [
+        {
+          "id": "slices",
+          "order": 1,
+          "name": {
+            "en": "Slices",
+            "he": "משולשים"
+          },
+          "items": [
+            {
+              "id": "regular_/_plain_slice",
+              "order": 1,
+              "name": {
+                "en": "Regular / Plain Slice",
+                "he": "משולש רגיל"
+              },
+              "price": 15
+            },
+            {
+              "id": "toppings_slice",
+              "order": 2,
+              "name": {
+                "en": "Toppings Slice",
+                "he": "משולש תוספות"
+              },
+              "price": 18
+            }
+          ]
+        },
+        {
+          "id": "pizza_pies",
+          "order": 2,
+          "name": {
+            "en": "Pizza Pies",
+            "he": "מגשים"
+          },
+          "items": [
+            {
+              "id": "personal_pie",
+              "order": 1,
+              "name": {
+                "en": "Personal Pie",
+                "he": "פיצה אישית"
+              },
+              "price": 52
+            },
+            {
+              "id": "family_/_large_pie",
+              "order": 2,
+              "name": {
+                "en": "Family / Large Pie",
+                "he": "פיצה משפחתית"
+              },
+              "price": 88
+            },
+            {
+              "id": "focaccia_&_dips",
+              "order": 3,
+              "name": {
+                "en": "Focaccia & Dips",
+                "he": "פוקאצ'ה ומטבלים"
+              },
+              "price": 32
+            }
+          ]
+        },
+        {
+          "id": "toppings",
+          "order": 3,
+          "name": {
+            "en": "Toppings",
+            "he": "תוספות"
+          },
+          "items": [
+            {
+              "id": "green_/_black_olives,_fresh_mushrooms,_white/red_onion,_jalapeno,_tomatoes",
+              "order": 1,
+              "name": {
+                "en": "Green / Black Olives, Fresh Mushrooms, White/Red Onion, Jalapeno, Tomatoes",
+                "he": "זיתים ירוקים/שחורים, פטריות, בצל לבן / סגול, פלפל חריף, עגבניות שרי"
+              },
+              "price": 7
+            }
+          ]
+        },
+        {
+          "id": "premium_toppings",
+          "order": 4,
+          "name": {
+            "en": "Premium Toppings",
+            "he": "תוספות מיוחדות"
+          },
+          "items": [
+            {
+              "id": "tuna,_anchovies,_feta_cheese,_goat_cheese,_baby_mozzarella",
+              "order": 1,
+              "name": {
+                "en": "Tuna, Anchovies, Feta Cheese, Goat Cheese, Baby Mozzarella",
+                "he": "טונה, אנשובי, גבינה בולגרית, גבינת עזים, בייבי מוצרלה"
+              },
+              "price": 9
+            }
+          ]
+        },
+        {
+          "id": "recommended_specials",
+          "order": 5,
+          "name": {
+            "en": "Recommended Specials",
+            "he": "מומלצות"
+          },
+          "items": [
+            {
+              "id": "bootke:_goat_cheese,_pesto_&_honey",
+              "order": 1,
+              "name": {
+                "en": "Bootke: Goat Cheese, Pesto & Honey",
+                "he": "פיצת הבית: גבינת עיזים, פסטו ודבש"
+              },
+              "price": "60/100"
+            },
+            {
+              "id": "greek:_feta_cheese,_olives_&_onions",
+              "order": 2,
+              "name": {
+                "en": "Greek: Feta Cheese, Olives & Onions",
+                "he": "יוונית: בולגרית, זיתים ובצל"
+              },
+              "price": "60/100"
+            },
+            {
+              "id": "jerusalem:_olives,_mushrooms,_cherry_tomatoes",
+              "order": 3,
+              "name": {
+                "en": "Jerusalem: Olives, Mushrooms, Cherry Tomatoes",
+                "he": "ירושלמית: זיתים, פטריות, עגבניות שרי"
+              },
+              "price": "60/100"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cold_drinks",
+      "order": 8,
+      "name": {
+        "en": "Cold Drinks",
+        "he": "שתיה קלה"
+      },
+      "subCategories": [
+        {
+          "id": "cold_drinks",
+          "order": 1,
+          "name": {
+            "en": "Cold Drinks",
+            "he": "שתיה קלה"
+          },
+          "items": [
+            {
+              "id": "coca-cola_/_zero",
+              "order": 1,
+              "name": {
+                "en": "Coca-Cola / Zero",
+                "he": "קולה / זירו"
+              },
+              "price": 14
+            },
+            {
+              "id": "sprite_/_zero",
+              "order": 2,
+              "name": {
+                "en": "Sprite / Zero",
+                "he": "ספרייט / זירו"
+              },
+              "price": 14
+            },
+            {
+              "id": "fuze-tea_(iced_tea)",
+              "order": 3,
+              "name": {
+                "en": "Fuze-Tea (Iced Tea)",
+                "he": "פיוזטי"
+              },
+              "price": 14
+            },
+            {
+              "id": "flavored_water",
+              "order": 4,
+              "name": {
+                "en": "Flavored Water",
+                "he": "מים בטעמים"
+              },
+              "price": 14
+            },
+            {
+              "id": "fresh_orange_juice",
+              "order": 5,
+              "name": {
+                "en": "Fresh Orange Juice",
+                "he": "תפוזים סחוט טרי"
+              },
+              "price": "20/25"
+            },
+            {
+              "id": "water_/_soda_(sparkling_water)",
+              "order": 6,
+              "name": {
+                "en": "Water / Soda (Sparkling Water)",
+                "he": "סודה / מים"
+              },
+              "price": 10
+            },
+            {
+              "id": "lemon-mint_/_grapefruit_/_orange",
+              "order": 7,
+              "name": {
+                "en": "Lemon-Mint / Grapefruit / Orange",
+                "he": "לימונענע / אשכוליות / תפוזים"
+              },
+              "price": 12
+            },
+            {
+              "id": "grapes_/_apple_/_strawberry-banana",
+              "order": 8,
+              "name": {
+                "en": "Grapes / Apple / Strawberry-Banana",
+                "he": "ענבים / תפוחים / תות-בננה"
+              },
+              "price": 12
+            },
+            {
+              "id": "san_pellegrino",
+              "order": 9,
+              "name": {
+                "en": "San Pellegrino",
+                "he": "סן פלגרינו"
+              },
+              "price": 12
             }
           ]
         }
