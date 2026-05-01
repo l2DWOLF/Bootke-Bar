@@ -19,6 +19,24 @@ export function generateMenu(lang = "he"){
                         .map(item => `
               <li class="menu-item">
                 <span class="name">${item.name[lang]}</span>
+                <button
+                class="speak-btn"
+                data-text="${
+                          lang === "he"
+                            ? `${item.name.en} ${Array.isArray(item.price)
+                              ? item.price.join(" or ")
+                              : item.price
+                            } shekels`
+                            : `${item.name.en} ${Array.isArray(item.price)
+                              ? item.price.join(" or ")
+                              : item.price
+                            } shekels`
+}"
+                data-lang="${lang}"
+                aria-label="Speak item"
+                >
+                  🔊
+                </button>
                 <span class="spacer"></span>
                 <span class="price">₪${Array.isArray(item.price) ? item.price.join(" / ") : item.price}</span>
               </li>

@@ -31,6 +31,7 @@
 }
 
 :root {
+    color-scheme: light;
     --h-clr: #189197;
     --text-clr: #3b3229;
 }
@@ -51,7 +52,7 @@ body {
     flex-direction: column;
     overflow-x: hidden;
 
-    background: #f2f2f2;
+    background: #f2f2f2 !important;
     color: var(--text-clr);
     line-height: 1.4;
 }
@@ -73,7 +74,7 @@ header {
     background-color: #f2f2f2;
     z-index: 100;
     border-bottom: 2px solid #8f8f8f;
-    box-shadow: 0px 2px 5px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 1px 3px rgba(0, 0, 0, 0.05);
 }
 
 .navbar {
@@ -86,7 +87,11 @@ header {
 }
 
 .logo {
-    width: 233px;
+    width: 175px;
+}
+
+.logo-he {
+    width: 150px;
 }
 
 .nav-lang-container {
@@ -117,6 +122,7 @@ header {
 }
 
 .nav-lang.active {
+    color: var(--h-clr);
     text-decoration: underline var(--h-clr);
 }
 
@@ -130,7 +136,7 @@ header {
 }
 
 main {
-    margin-top: 140px;
+    margin-top: 4em;
     columns: 2;
     max-width: 1200px;
     padding: 5em;
@@ -189,7 +195,19 @@ ul {
 .price {}
 
 .menu-item:hover {
-    background: var(--h-clr);
+    background: #1891978e;
+}
+
+.speak-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin: 0 6px;
+    font-size: 14px;
+}
+
+.speak-btn:hover {
+    opacity: 0.7;
 }
 
 @media (max-width: 900px) {
@@ -202,5 +220,9 @@ ul {
     .category {
         margin-bottom: 1em;
         max-width: 450px;
+    }
+
+    .subcategory h3 {
+        font-size: 1.3rem;
     }
 }
