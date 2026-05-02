@@ -95,9 +95,6 @@ header {
 }
 
 .nav-lang-container {
-    /* position: absolute;
-    top: 20px;
-    left: 20px; */
     display: flex;
     align-self: flex-end;
     justify-self: flex-end;
