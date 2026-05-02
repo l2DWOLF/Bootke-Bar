@@ -224,6 +224,7 @@ ul {
 
     animation: btnAnim 15s linear infinite;
 }
+
 .btn-up.show-btn {
     opacity: 1;
     pointer-events: auto;
@@ -252,18 +253,19 @@ ul {
     transform: scale(1.02) translateY(-2%);
 }
 
-@keyframes btnAnim{
-    0%{
+@keyframes btnAnim {
+    0% {
         border-radius: 0px 7px 0px 7px;
     }
-    50%{
+
+    50% {
         border-radius: 7px 0px 7px 0px;
     }
-    100%{
+
+    100% {
         border-radius: 0px 7px 0px 7px;
     }
 }
-
 
 @media (max-width: 900px) {
     main {
@@ -281,19 +283,32 @@ ul {
         font-size: 1.3rem;
     }
 
-        @supports (animation-timeline: view()) {
-            .block {
-                animation: appear 1s forwards;
-                animation-timeline: view();
-                animation-range: entry 5px cover 100%;
-            }
-    
-            .block-reverse {
-                animation: appearReverse 1.5s forwards;
-                animation-timeline: view();
-                animation-range: entry 20% cover 30%;
-            }
+    @supports (animation-timeline: view()) {
+        .block {
+            animation: appear 1s forwards;
+            animation-timeline: view();
+            animation-range: entry 5px cover 100%;
         }
+
+        .block-reverse {
+            animation: appearReverse 1.5s forwards;
+            animation-timeline: view();
+            animation-range: entry 20% cover 30%;
+        }
+    }
+
+    .block,
+    .block-reverse {
+        opacity: 0;
+    }
+
+    .block.frozen {
+        animation: appear 1.5s forwards;
+    }
+
+    .block-reverse.frozen {
+        animation: appearReverse 1.5s forwards;
+    }
 }
 
 @keyframes appear {
@@ -319,17 +334,3 @@ ul {
         transform: translateX(0px);
     }
 }
-
-.block,
-.block-reverse {
-    opacity: 0;
-}
-
-.block.frozen {
-    animation: appear 1.5s forwards;
-}
-
-.block-reverse.frozen {
-    animation: appearReverse 1.5s forwards;
-}
-
