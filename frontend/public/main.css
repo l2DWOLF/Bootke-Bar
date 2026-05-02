@@ -280,6 +280,20 @@ ul {
     .subcategory h3 {
         font-size: 1.3rem;
     }
+
+        @supports (animation-timeline: view()) {
+            .block {
+                animation: appear 1s forwards;
+                animation-timeline: view();
+                animation-range: entry 5px cover 100%;
+            }
+    
+            .block-reverse {
+                animation: appearReverse 1.5s forwards;
+                animation-timeline: view();
+                animation-range: entry 20% cover 30%;
+            }
+        }
 }
 
 @keyframes appear {
@@ -319,16 +333,3 @@ ul {
     animation: appearReverse 1.5s forwards;
 }
 
-@supports (animation-timeline: view()) {
-    .block {
-        animation: appear 1s forwards;
-        animation-timeline: view();
-        animation-range: entry 5px cover 100%;
-    }
-
-    .block-reverse {
-        animation: appearReverse 1.5s forwards;
-        animation-timeline: view();
-        animation-range: entry 20% cover 30%;
-    }
-}
