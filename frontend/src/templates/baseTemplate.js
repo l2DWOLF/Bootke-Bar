@@ -28,6 +28,15 @@ export function baseTemplate({ title, main, lang = "en" }) {
     ${main}
   </div>
 
+  <div class="btn-up">
+      <a href="#" aria-label="חזרה למעלה"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40"
+              fill="currentColor" viewBox="0 0 24 24">
+              <path d="m6.29 11.29 1.42 1.42L12 8.41l4.29 4.3 1.42-1.42L12 5.59z"></path>
+              <path d="m6.29 16.29 1.42 1.42 4.29-4.3 4.29 4.3 1.42-1.42-5.71-5.7z"></path>
+      </svg></a>
+  </div>
+
+  <script src="./main.js" defer></script>
   <script src="./speech.js" defer></script>
 </body>
 </html>

@@ -17,7 +17,7 @@ export function generateMenu(lang = "he"){
                     const items = subCategory.items
                         .sort((a, b) => a.order - b.order)
                         .map(item => `
-              <li class="menu-item">
+              <li class="menu-item" onclick="true">
                 <span class="name">${item.name[lang]}</span>
                 <button
                 class="speak-btn"
@@ -49,7 +49,7 @@ export function generateMenu(lang = "he"){
           `;
                 }).join("");
             return `
-        <section class="category">
+        <section class="category block">
           ${subCategories}
         </section>
       `;
