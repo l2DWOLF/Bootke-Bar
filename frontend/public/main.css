@@ -296,9 +296,13 @@ ul {
         margin-bottom: 1em;
         max-width: 450px;
     }
+    
+    .category-title{
+        font-size: 1.35rem;
+    }
 
     .subcategory h3 {
-        font-size: 1.3rem;
+        font-size: 1.175rem;
     }
 
     .block,
