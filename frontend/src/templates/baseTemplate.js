@@ -1,4 +1,4 @@
-export function baseTemplate({ title, main, lang = "en" }) {
+export function baseTemplate({ title, main, lang = "en", pageType = ""}) {
   return `
 <!doctype html>
 <html lang="${lang}">
@@ -10,7 +10,7 @@ export function baseTemplate({ title, main, lang = "en" }) {
   <link rel="stylesheet" href="./main.css">
 </head>
 
-<body class="body-${lang}">
+<body class="body-${lang} ${pageType}">
   <header>
     <nav class="navbar">
       <a href="./index.html">
