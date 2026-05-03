@@ -127,7 +127,7 @@ header {
 .menu-wrapper {
     min-height: 1100%;
     position: relative;
-    padding: 5em;
+    padding: 5em 0 2em;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -154,6 +154,11 @@ main {
     display: flex;
     flex-direction: column;
     gap: 10px;
+}
+
+.category-title {
+    text-decoration: underline dotted var(--h-clr);
+    text-underline-offset: 5px;
 }
 
 .subcategory {}
@@ -283,27 +288,17 @@ ul {
         font-size: 1.3rem;
     }
 
-    @supports (animation-timeline: view()) {
-        .block {
-            animation: appear 1s forwards;
-            animation-timeline: view();
-            animation-range: entry 5px cover 100%;
-        }
-
-        .block-reverse {
-            animation: appearReverse 1.5s forwards;
-            animation-timeline: view();
-            animation-range: entry 20% cover 30%;
-        }
-    }
-
     .block,
     .block-reverse {
         opacity: 0;
+        transform: translateY(80px);
+        will-change: transform, opacity;
     }
 
     .block.frozen {
-        animation: appear 1.5s forwards;
+        animation: appear 1s ease-out forwards;
+        opacity: 1;
+        transform: translateY(0px);
     }
 
     .block-reverse.frozen {
@@ -314,7 +309,7 @@ ul {
 @keyframes appear {
     from {
         opacity: 0;
-        transform: translateY(500px);
+        transform: translateY(200px);
     }
 
     to {

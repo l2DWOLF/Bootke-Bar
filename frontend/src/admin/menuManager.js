@@ -80,6 +80,7 @@ async function addCategory(){
         id: nameEn.toLowerCase().replace(/\s+/g, "_"),
         order: menu.categories.length + 1,
         name: { en: nameEn, he: nameHe },
+        showCategoryName: false,
         subCategories: []
     };
 
@@ -239,6 +240,24 @@ async function reorderItem(){
     console.log("🔁 Item reordered!");
 };
 
+async function toggleCategoryTitle(){
+    const menu = loadMenu();
+
+    listCategories(menu);
+    const catIndex = await ask("Select category to toggle title (or b to go back): ");
+    if (catIndex.toLowerCase() === "b") return;
+
+    const category = menu.categories[Number(catIndex) - 1];
+    if (!category) return console.log("❌ Invalid category");
+
+    category.showCategoryName = !category.showCategoryName;
+
+    saveMenu(menu);
+    console.log(
+        `✅ Category title is now ${category.showCategoryName ? "VISIBLE" : "HIDDEN"}`
+    );
+};
+
 async function mainMenu(){
     while(true){
         console.log("\n🍽️ Bootke Menu Manager");
@@ -248,7 +267,8 @@ async function mainMenu(){
         console.log("4. Add Subcategory");
         console.log("5. Edit Item");
         console.log("6. Reorder Item");
-        console.log("7. Exit");
+        console.log("7. Toggle Category Title");
+        console.log("8. Exit");
 
         const choice = await ask("Choose option: ");
 
@@ -258,7 +278,8 @@ async function mainMenu(){
         else if (choice === "4") await addSubCategory();
         else if (choice === "5") await editItem();
         else if (choice === "6") await reorderItem();
-        else if (choice === "7") {
+        else if (choice === "7") await toggleCategoryTitle();
+        else if (choice === "8") {
             console.log("Bye 👋");
             process.exit(0);
         } else {

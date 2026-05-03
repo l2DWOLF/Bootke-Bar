@@ -1,5 +1,5 @@
-function initSpeech(){
-    if(!window.speechSynthesis){
+function initSpeech() {
+    if (!window.speechSynthesis) {
         console.warn("Text-to-speech not supported");
         return;
     };
@@ -7,22 +7,22 @@ function initSpeech(){
     const buttons = document.querySelectorAll(".speak-btn");
     let voices = [];
 
-    function loadVoices(){
+    function loadVoices() {
         voices = speechSynthesis.getVoices();
     };
 
     loadVoices();
     speechSynthesis.onvoiceschanged = loadVoices;
-    
+
     buttons.forEach(btn => {
         btn.addEventListener("click", () => {
-            let text = btn.dataset.text || "";
+            let rawText = btn.dataset.text || "";
             const lang = btn.dataset.lang || "en";
 
-            text = text.replace(/\//g, " or ").replace(/₪/g, "").trim();
+            const text = cleanText(rawText, lang);
 
             const utterance = new SpeechSynthesisUtterance(text);
-            if(!voices.length){
+            if (!voices.length) {
                 voices = speechSynthesis.getVoices();
             };
 
@@ -30,12 +30,10 @@ function initSpeech(){
                 v.lang.toLowerCase().includes(lang === "he" ? "he" : "en")
             );
 
-            if(voice){
+            if (voice) {
                 utterance.voice = voice;
-                utterance.lang = voice.lang;
-            } else {
-                voice = voices[0];
             };
+            utterance.lang = lang === "he" ? "he-IL" : "en-US";
 
             speechSynthesis.cancel();
             speechSynthesis.resume();
@@ -44,3 +42,14 @@ function initSpeech(){
     });
 };
 document.addEventListener("DOMContentLoaded", initSpeech);
+
+function cleanText(text, lang) {
+    return text
+        .replace(/&[#A-Za-z0-9]+;/g, "")
+        .replace(/['"׳״]/g, "")
+        .replace(/[\u200B-\u200D\uFEFF]/g, "")
+        .replace(/\//g, lang === "he" ? " או " : " or ")
+        .replace(/₪/g, "")
+        .replace(/\s+/g, " ")
+        .trim();
+}

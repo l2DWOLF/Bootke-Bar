@@ -298,7 +298,8 @@
             }
           ]
         }
-      ]
+      ],
+      "showCategoryName": false
     },
     {
       "id": "hot_drinks_alcoholic",
@@ -345,7 +346,8 @@
             }
           ]
         }
-      ]
+      ],
+      "showCategoryName": false
     },
     {
       "id": "cocktails",
@@ -465,7 +467,8 @@
             }
           ]
         }
-      ]
+      ],
+      "showCategoryName": false
     },
     {
       "id": "bottles",
@@ -512,7 +515,8 @@
             }
           ]
         }
-      ]
+      ],
+      "showCategoryName": false
     },
     {
       "id": "wine",
@@ -624,7 +628,8 @@
             }
           ]
         }
-      ]
+      ],
+      "showCategoryName": true
     },
     {
       "id": "snacks_&_appetizers",
@@ -779,7 +784,8 @@
             }
           ]
         }
-      ]
+      ],
+      "showCategoryName": false
     },
     {
       "id": "pizza",
@@ -929,7 +935,8 @@
             }
           ]
         }
-      ]
+      ],
+      "showCategoryName": true
     },
     {
       "id": "cold_drinks",
@@ -969,7 +976,7 @@
               "id": "fuze-team_(iced_tea).",
               "order": 3,
               "name": {
-                "en": "Fuze-Team (Iced Tea).",
+                "en": "Fuze-Tea (Iced Tea)",
                 "he": "פיוזטי"
               },
               "price": 14
@@ -1085,7 +1092,8 @@
             }
           ]
         }
-      ]
+      ],
+      "showCategoryName": true
     },
     {
       "id": "hot_drinks",
@@ -1177,7 +1185,9 @@
             }
           ]
         }
-      ]
+      ],
+      "showCategoryName": false
     }
-  ]
+  ],
+  "lastUpdated": "2026-05-03T06:55:26.396Z"
 }

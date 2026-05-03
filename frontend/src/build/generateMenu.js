@@ -23,10 +23,10 @@ export function generateMenu(lang = "he"){
                 class="speak-btn"
                 data-text="${
                           lang === "he"
-                            ? `${item.name.en} ${Array.isArray(item.price)
-                              ? item.price.join(" or ")
+                            ? `${item.name.he} ${Array.isArray(item.price)
+                              ? item.price.join(" או ")
                               : item.price
-                            } shekels`
+                            } שקלים`
                             : `${item.name.en} ${Array.isArray(item.price)
                               ? item.price.join(" or ")
                               : item.price
@@ -50,6 +50,8 @@ export function generateMenu(lang = "he"){
                 }).join("");
             return `
         <section class="category block">
+          ${category.showCategoryName ? `<h2 class=category-title>${category.name[lang]}</h2>` : ""}
+
           ${subCategories}
         </section>
       `;
