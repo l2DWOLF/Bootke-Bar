@@ -7,8 +7,8 @@ export function generateHome(){
         lang: "en",
         main: `
       <main class="home-main">
-        <h1>Homepage Coming Soon</h1>
-        <h3> our menu is ready - choose your Language: </h3>
+        <h1>Homepage coming soon</h1>
+        <h3> Visit our menu: </h3>
         <div class="nav-lang-container">
           <a class="nav-lang home" href="./menu-en.html">English Menu</a>
           |
