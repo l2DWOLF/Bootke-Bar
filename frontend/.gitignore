@@ -8,7 +8,7 @@ pnpm-debug.log*
 lerna-debug.log*
 
 scripts/
-menuBackup.json
+backups/
 node_modules/
 dist
 dist-ssr

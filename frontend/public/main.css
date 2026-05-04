@@ -53,9 +53,16 @@ body {
     flex-direction: column;
     overflow-x: hidden;
 
-    background: #f2f2f2 !important;
     color: var(--text-clr);
     line-height: 1.4;
+
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+
+    background:
+        radial-gradient(circle at 20% 20%, rgba(0, 0, 0, 0.02), transparent 30%),
+        radial-gradient(circle at 80% 80%, rgba(0, 0, 0, 0.02), transparent 30%),
+        #f2f2f2;
 }
 
 .body-he {
@@ -72,10 +79,12 @@ header {
     position: fixed;
     top: 0;
     left: 0;
-    background-color: #f2f2f2;
+    background-color: #f2f2f2cc;
     z-index: 100;
-    border-bottom: 2px solid #8f8f8f;
     box-shadow: 0px 0px 1px 3px rgba(0, 0, 0, 0.05);
+    backdrop-filter: blur(3px) saturate(400%);
+    -webkit-backdrop-filter: blur(3px) saturate(400%);
+    /* background: rgba(242, 242, 242, 0.9); */
 }
 
 .navbar {
@@ -96,10 +105,20 @@ header {
 }
 
 .nav-lang-container {
+    position: absolute;
+    top: 15px;
+    right: 20px;
     display: flex;
     align-self: center;
     justify-self: center;
     gap: .2em;
+    direction: rtl !important;
+}
+
+.nav-lang-container-home {
+    position: unset;
+    top: unset;
+    right: unset;
 }
 
 .home-main .nav-lang-container {
@@ -115,10 +134,11 @@ header {
     z-index: 101;
 }
 
-.home-main h1{
+.home-main h1 {
     font-size: 1.5rem;
 }
-.home-main h3{
+
+.home-main h3 {
     font-size: 1rem;
 }
 
@@ -139,14 +159,15 @@ header {
 .menu-wrapper {
     min-height: 1100%;
     position: relative;
-    padding: 5em 0 2em;
+    padding: 5em 0 0;
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
 
 main {
-    margin-top: 4em;
+    margin-top: 3em;
     columns: 2;
     max-width: 1200px;
     padding: 5em;
@@ -166,15 +187,22 @@ main {
 .category {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 1em;
 }
 
 .category-title {
     text-decoration: underline dotted var(--h-clr);
     text-underline-offset: 5px;
+    font-size: 2rem;
+    letter-spacing: 1.5px;
 }
 
 .subcategory {}
+
+.subcategory:not(:last-child) {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    padding-bottom: 10px;
+}
 
 .subcategory h3 {
     font-size: 1.5rem;
@@ -194,24 +222,61 @@ ul {
 .menu-item {
     display: flex;
     align-items: baseline;
-    font-size: 15px;
+    justify-content: space-between;
+    font-size: 16px;
     font-weight: 700;
-    padding: 4px;
+    padding: 6px;
+    min-height: 40px;
 }
 
-.name {}
+.menu-item:hover {
+    background: #1891978e;
+    /* background: linear-gradient(90deg,
+            rgba(24, 145, 151, 0.12),
+            rgba(24, 145, 151, 0.04)); */
+    border-radius: 6px;
+}
+
+.menu-item:hover .name {
+    /* color: white; */
+}
+
+
+
+.menu-item.out-of-stock {
+    opacity: 0.5;
+    text-decoration: line-through;
+}
+
+.menu-item.out-of-stock .price {
+    opacity: 0.7;
+}
+
+.menu-item.out-of-stock>.name::after {
+    content: "Out of stock";
+    font-size: 0.8rem;
+    color: red;
+    margin: 0 10px;
+}
+
+.menu-item.out-of-stock>.spacer,
+.menu-item.out-of-stock>.speak-btn {
+    display: none;
+}
+
+.name {
+    color: #2b2b2b;
+}
 
 .spacer {
     flex: 1;
-    border-bottom: 3px dotted var(--h-clr);
+    border-bottom: 2px dotted var(--h-clr);
     margin: 0 10px;
     transform: translateY(-2px);
 }
 
-.price {}
-
-.menu-item:hover {
-    background: #1891978e;
+.price {
+    font-weight: 700;
 }
 
 .speak-btn {
@@ -220,10 +285,17 @@ ul {
     cursor: pointer;
     margin: 0 6px;
     font-size: 14px;
+    opacity: 0.6;
+    transition: 0.2s ease;
 }
 
 .speak-btn:hover {
     opacity: 0.7;
+}
+
+.menu-item:hover .speak-btn {
+    opacity: 1;
+    transform: scale(1.1);
 }
 
 .btn-up {
@@ -289,20 +361,24 @@ ul {
     main {
         min-width: 100vw;
         column-count: 1;
-        padding: 1em 2em;
+        padding: 1em 1.3em;
     }
 
     .category {
-        margin-bottom: 1em;
+        margin-bottom: 1.5em;
         max-width: 450px;
+        background: #ffffff;
+        padding: 14px 16px;
+        border-radius: 10px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
     }
-    
-    .category-title{
-        font-size: 1.35rem;
+
+    .category-title {
+        font-size: 1.4rem;
     }
 
     .subcategory h3 {
-        font-size: 1.175rem;
+        font-size: 1.15rem;
     }
 
     .block,

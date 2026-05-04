@@ -112,7 +112,6 @@ async function addSubCategory(){
 
     category.subCategories.push(newSub);
     saveMenu(menu);
-
     console.log("✅ Subcategory added!");
 };
 
@@ -128,13 +127,15 @@ async function editItem(){
     const newNameEn = await ask(`New name EN (${item.name.en}): `);
     const newNameHe = await ask(`New name HE (${item.name.he}): `);
     const newPrice = await ask(`New price (${item.price}): `);
+    const inStockInput = await ask(`In stock? (y/n) (${item.inStock ? "y" : "n"}): `);
 
     if (newNameEn) item.name.en = newNameEn;
     if (newNameHe) item.name.he = newNameHe;
     if (newPrice) item.price = isNaN(newPrice) ? item.price : Number(newPrice);
+    if (inStockInput.toLowerCase() === "y") item.inStock = true;
+    if (inStockInput.toLowerCase() === "n") item.inStock = false;
 
     saveMenu(menu);
-
     console.log("✅ Item updated!");
 };
 

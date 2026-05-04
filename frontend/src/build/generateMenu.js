@@ -17,7 +17,7 @@ export function generateMenu(lang = "he"){
                     const items = subCategory.items
                         .sort((a, b) => a.order - b.order)
                         .map(item => `
-              <li class="menu-item" onclick="true">
+                <li class="menu-item ${item.inStock ? "" : "out-of-stock"}" onclick="true">
                 <span class="name">${item.name[lang]}</span>
                 <button
                 class="speak-btn"

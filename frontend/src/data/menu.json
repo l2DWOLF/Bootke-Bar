@@ -23,7 +23,9 @@
                 "en": "Unfiltered Goldstar",
                 "he": "גולדסטאר לא מסוננת"
               },
-              "price": "34/39"
+              "price": "34/39",
+              "inStock": true,
+              "updatedAt": "2026-05-04T13:24:48.862Z"
             },
             {
               "id": "carlsberg",
@@ -32,7 +34,9 @@
                 "en": "Carlsberg",
                 "he": "קרלסברג"
               },
-              "price": "32/37"
+              "price": "32/37",
+              "inStock": true,
+              "updatedAt": "2026-05-04T13:24:48.862Z"
             },
             {
               "id": "carlsberg_luma",
@@ -41,7 +45,9 @@
                 "en": "Carlsberg Luma",
                 "he": "קרלסברג לומה"
               },
-              "price": "34/39"
+              "price": "34/39",
+              "inStock": true,
+              "updatedAt": "2026-05-04T13:24:48.862Z"
             },
             {
               "id": "tuborg",
@@ -50,7 +56,9 @@
                 "en": "Tuborg",
                 "he": "טובורג"
               },
-              "price": "32/37"
+              "price": "32/37",
+              "inStock": true,
+              "updatedAt": "2026-05-04T13:24:48.862Z"
             },
             {
               "id": "blanc_1664",
@@ -59,7 +67,9 @@
                 "en": "1664 Blanc",
                 "he": "בלאנק 1664"
               },
-              "price": "34/39"
+              "price": "34/39",
+              "inStock": true,
+              "updatedAt": "2026-05-04T13:24:48.862Z"
             },
             {
               "id": "weihenstephan",
@@ -68,7 +78,9 @@
                 "en": "Weihenstephan",
                 "he": "ויינשטפן"
               },
-              "price": "34/39"
+              "price": "34/39",
+              "inStock": true,
+              "updatedAt": "2026-05-04T13:24:48.862Z"
             },
             {
               "id": "paulaner",
@@ -77,7 +89,9 @@
                 "en": "Paulaner",
                 "he": "פאולנר"
               },
-              "price": "34/39"
+              "price": "34/39",
+              "inStock": true,
+              "updatedAt": "2026-05-04T13:24:48.862Z"
             },
             {
               "id": "shapira_lager",
@@ -86,7 +100,9 @@
                 "en": "Shapira Lager",
                 "he": "שפירא לאגר"
               },
-              "price": "34/39"
+              "price": "34/39",
+              "inStock": true,
+              "updatedAt": "2026-05-04T13:24:48.862Z"
             },
             {
               "id": "shapira_ipa",
@@ -95,7 +111,9 @@
                 "en": "Shapira IPA",
                 "he": "שפירא IPA"
               },
-              "price": "34/39"
+              "price": "34/39",
+              "inStock": true,
+              "updatedAt": "2026-05-04T13:24:48.862Z"
             },
             {
               "id": "shapira_wheat",
@@ -104,7 +122,9 @@
                 "en": "Shapira Wheat",
                 "he": "שפירא חיטה"
               },
-              "price": "34/39"
+              "price": "34/39",
+              "inStock": true,
+              "updatedAt": "2026-05-04T13:24:48.862Z"
             },
             {
               "id": "shapira_pale_ale",
@@ -113,7 +133,9 @@
                 "en": "Shapira Pale Ale",
                 "he": "שפירא פייל אייל"
               },
-              "price": "34/39"
+              "price": "34/39",
+              "inStock": true,
+              "updatedAt": "2026-05-04T13:24:48.862Z"
             }
           ]
         },
@@ -132,7 +154,9 @@
                 "en": "Heineken",
                 "he": "הייניקן"
               },
-              "price": 28
+              "price": 28,
+              "inStock": true,
+              "updatedAt": "2026-05-04T13:24:48.862Z"
             },
             {
               "id": "sol",
@@ -141,7 +165,9 @@
                 "en": "Sol",
                 "he": "סול"
               },
-              "price": 28
+              "price": 28,
+              "inStock": true,
+              "updatedAt": "2026-05-04T13:24:48.862Z"
             },
             {
               "id": "breezer",
@@ -150,7 +176,9 @@
                 "en": "Breezer Flavors",
                 "he": "בריזר בטעמים"
               },
-              "price": 30
+              "price": 30,
+              "inStock": true,
+              "updatedAt": "2026-05-04T13:24:48.862Z"
             },
             {
               "id": "red_stripe",
@@ -159,7 +187,9 @@
                 "en": "Red Stripe",
                 "he": "רד סטרייפ"
               },
-              "price": 29
+              "price": 29,
+              "inStock": true,
+              "updatedAt": "2026-05-04T13:24:48.862Z"
             },
             {
               "id": "corona",
@@ -168,7 +198,9 @@
                 "en": "Corona",
                 "he": "קורונה"
               },
-              "price": 30
+              "price": 30,
+              "inStock": true,
+              "updatedAt": "2026-05-04T13:24:48.862Z"
             },
             {
               "id": "stella",
@@ -177,7 +209,9 @@
                 "en": "Stella",
                 "he": "סטלה"
               },
-              "price": 29
+              "price": 29,
+              "inStock": true,
+              "updatedAt": "2026-05-04T13:24:48.862Z"
             },
             {
               "id": "blanc",
@@ -186,7 +220,9 @@
                 "en": "Blanc 1664",
                 "he": "בלאנק"
               },
-              "price": 32
+              "price": 32,
+              "inStock": true,
+              "updatedAt": "2026-05-04T13:24:48.862Z"
             },
             {
               "id": "kasteel_rouge",
@@ -195,7 +231,9 @@
                 "en": "Kasteel Rouge",
                 "he": "קסטיל רוז'"
               },
-              "price": 34
+              "price": 34,
+              "inStock": true,
+              "updatedAt": "2026-05-04T13:24:48.862Z"
             },
             {
               "id": "liefmans",
@@ -204,7 +242,9 @@
                 "en": "Liefmans",
                 "he": "ליפמנס"
               },
-              "price": 33
+              "price": 33,
+              "inStock": true,
+              "updatedAt": "2026-05-04T13:24:48.862Z"
             },
             {
               "id": "weihenstephan_vitus",
@@ -213,7 +253,9 @@
                 "en": "Weihenstephan Vitus",
                 "he": "ויינשטפן ויטוס"
               },
-              "price": 36
+              "price": 36,
+              "inStock": true,
+              "updatedAt": "2026-05-04T13:24:48.862Z"
             },
             {
               "id": "maredsous",
@@ -222,7 +264,9 @@
                 "en": "Maredsous",
                 "he": "מרדסו"
               },
-              "price": 36
+              "price": 36,
+              "inStock": true,
+              "updatedAt": "2026-05-04T13:24:48.862Z"
             },
             {
               "id": "guinness",
@@ -231,7 +275,9 @@
                 "en": "Guinness",
                 "he": "גינס"
               },
-              "price": 30
+              "price": 30,
+              "inStock": true,
+              "updatedAt": "2026-05-04T13:24:48.862Z"
             },
             {
               "id": "malka",
@@ -240,7 +286,9 @@
                 "en": "Malka Blonde",
                 "he": "מלכה בהירה"
               },
-              "price": 32
+              "price": 32,
+              "inStock": true,
+              "updatedAt": "2026-05-04T13:24:48.862Z"
             },
             {
               "id": "negev_oasis",
@@ -249,7 +297,9 @@
                 "en": "Negev Oasis",
                 "he": "נגב אואזיס"
               },
-              "price": 32
+              "price": 32,
+              "inStock": true,
+              "updatedAt": "2026-05-04T13:24:48.862Z"
             },
             {
               "id": "shikma",
@@ -258,7 +308,9 @@
                 "en": "Shikma",
                 "he": "שקמה"
               },
-              "price": 32
+              "price": 32,
+              "inStock": true,
+              "updatedAt": "2026-05-04T13:24:48.862Z"
             },
             {
               "id": "jem's",
@@ -267,7 +319,9 @@
                 "en": "Jem's",
                 "he": "ג'מס"
               },
-              "price": 32
+              "price": 32,
+              "inStock": true,
+              "updatedAt": "2026-05-04T13:24:48.862Z"
             },
             {
               "id": "gibor",
@@ -276,7 +330,9 @@
                 "en": "Gibor",
                 "he": "גיבור"
               },
-              "price": 32
+              "price": 32,
+              "inStock": true,
+              "updatedAt": "2026-05-04T13:24:48.862Z"
             },
             {
               "id": "somersby",
@@ -285,7 +341,9 @@
                 "en": "Somersby (Apple / Mango)",
                 "he": "סומרסבי תפוחים / מנגו"
               },
-              "price": 32
+              "price": 32,
+              "inStock": true,
+              "updatedAt": "2026-05-04T13:24:48.862Z"
             },
             {
               "id": "daura",
@@ -294,7 +352,9 @@
                 "en": "Daura (Gluten Free)",
                 "he": "דאורה (ללא גלוטן)"
               },
-              "price": 30
+              "price": 30,
+              "inStock": true,
+              "updatedAt": "2026-05-04T13:24:48.862Z"
             }
           ]
         }
@@ -324,7 +384,9 @@
                 "en": "Hot Sangria",
                 "he": "סנגריה חמה"
               },
-              "price": 38
+              "price": 38,
+              "inStock": true,
+              "updatedAt": "2026-05-04T13:24:48.862Z"
             },
             {
               "id": "cider_hot",
@@ -333,7 +395,9 @@
                 "en": "Hot Cider",
                 "he": "סיידר חם"
               },
-              "price": 50
+              "price": 50,
+              "inStock": true,
+              "updatedAt": "2026-05-04T13:24:48.862Z"
             },
             {
               "id": "irish_coffee",
@@ -342,7 +406,9 @@
                 "en": "Irish Coffee",
                 "he": "קפה אירי"
               },
-              "price": 54
+              "price": 54,
+              "inStock": true,
+              "updatedAt": "2026-05-04T13:24:48.862Z"
             }
           ]
         }
@@ -372,7 +438,9 @@
                 "en": "XL Vodka",
                 "he": "וודקה XL"
               },
-              "price": 58
+              "price": 58,
+              "inStock": true,
+              "updatedAt": "2026-05-04T13:24:48.862Z"
             },
             {
               "id": "vodka_premium",
@@ -381,7 +449,9 @@
                 "en": "XL Vodka Premium",
                 "he": "וודקה XL פרימיום"
               },
-              "price": 65
+              "price": 65,
+              "inStock": true,
+              "updatedAt": "2026-05-04T13:24:48.862Z"
             },
             {
               "id": "gin_tonic",
@@ -390,7 +460,9 @@
                 "en": "Gin & Tonic",
                 "he": "ג'ין טוניק"
               },
-              "price": 60
+              "price": 60,
+              "inStock": true,
+              "updatedAt": "2026-05-04T13:24:48.862Z"
             },
             {
               "id": "arak_lemon",
@@ -399,7 +471,9 @@
                 "en": "Arak Lemon",
                 "he": "ערק לימונים"
               },
-              "price": 49
+              "price": 49,
+              "inStock": true,
+              "updatedAt": "2026-05-04T13:24:48.862Z"
             },
             {
               "id": "lemondate-mint_slushy",
@@ -408,7 +482,9 @@
                 "en": "Lemon-Mint Slushy",
                 "he": "לימונענע גרוס"
               },
-              "price": "35/55"
+              "price": "35/55",
+              "inStock": true,
+              "updatedAt": "2026-05-04T13:24:48.862Z"
             }
           ]
         },
@@ -427,7 +503,9 @@
                 "en": "Aperol Spritz",
                 "he": "אפרול שפריץ"
               },
-              "price": 48
+              "price": 48,
+              "inStock": true,
+              "updatedAt": "2026-05-04T13:24:48.862Z"
             },
             {
               "id": "margarita",
@@ -436,7 +514,9 @@
                 "en": "Margarita",
                 "he": "מרגריטה קלאסית"
               },
-              "price": 58
+              "price": 58,
+              "inStock": true,
+              "updatedAt": "2026-05-04T13:24:48.862Z"
             },
             {
               "id": "mojito",
@@ -445,7 +525,9 @@
                 "en": "Mojito",
                 "he": "מוחיטו"
               },
-              "price": 58
+              "price": 58,
+              "inStock": true,
+              "updatedAt": "2026-05-04T13:24:48.862Z"
             },
             {
               "id": "negroni",
@@ -454,7 +536,9 @@
                 "en": "Negroni",
                 "he": "נגרוני"
               },
-              "price": 60
+              "price": 60,
+              "inStock": true,
+              "updatedAt": "2026-05-04T13:24:48.862Z"
             },
             {
               "id": "cobra",
@@ -463,7 +547,9 @@
                 "en": "Cobra",
                 "he": "קוברה"
               },
-              "price": 64
+              "price": 64,
+              "inStock": true,
+              "updatedAt": "2026-05-04T13:24:48.862Z"
             }
           ]
         }
@@ -493,7 +579,9 @@
                 "en": "Stoli / Finlandia",
                 "he": "סטולי / פינלנדיה"
               },
-              "price": 600
+              "price": 600,
+              "inStock": true,
+              "updatedAt": "2026-05-04T13:24:48.862Z"
             },
             {
               "id": "beluga",
@@ -502,7 +590,9 @@
                 "en": "Beluga",
                 "he": "בלוגה"
               },
-              "price": 900
+              "price": 900,
+              "inStock": true,
+              "updatedAt": "2026-05-04T13:24:48.862Z"
             },
             {
               "id": "arak_elite",
@@ -511,7 +601,9 @@
                 "en": "Arak Elite",
                 "he": "ערק עלית"
               },
-              "price": 360
+              "price": 360,
+              "inStock": true,
+              "updatedAt": "2026-05-04T13:24:48.862Z"
             }
           ]
         }
@@ -541,7 +633,9 @@
                 "en": "Midbar - white / red / rose",
                 "he": "מדבר - אדום / לבן / רוזה"
               },
-              "price": 30
+              "price": 30,
+              "inStock": true,
+              "updatedAt": "2026-05-04T13:24:48.862Z"
             },
             {
               "id": "cava",
@@ -550,7 +644,9 @@
                 "en": "Cava",
                 "he": "קאווה"
               },
-              "price": 34
+              "price": 34,
+              "inStock": true,
+              "updatedAt": "2026-05-04T13:24:48.862Z"
             }
           ]
         },
@@ -569,7 +665,9 @@
                 "en": "Gamla Cabarnet",
                 "he": "גמלא קברנה"
               },
-              "price": 229
+              "price": 229,
+              "inStock": true,
+              "updatedAt": "2026-05-04T13:24:48.862Z"
             },
             {
               "id": "yarden_merlot",
@@ -578,7 +676,9 @@
                 "en": "Yarden Merlot",
                 "he": "ירדן מרלו"
               },
-              "price": 269
+              "price": 269,
+              "inStock": true,
+              "updatedAt": "2026-05-04T13:24:48.862Z"
             },
             {
               "id": "yarden_cabarnet_frank",
@@ -587,7 +687,9 @@
                 "en": "Yarden Cabarnet Frank",
                 "he": "ירדן קברנה פרנק"
               },
-              "price": 289
+              "price": 289,
+              "inStock": true,
+              "updatedAt": "2026-05-04T13:24:48.862Z"
             }
           ]
         },
@@ -606,7 +708,9 @@
                 "en": "Blue Nun Gewurtz",
                 "he": "בלו נאן גוורץ"
               },
-              "price": 152
+              "price": 152,
+              "inStock": true,
+              "updatedAt": "2026-05-04T13:24:48.862Z"
             },
             {
               "id": "dalton_sauvignon_blanc",
@@ -615,7 +719,9 @@
                 "en": "Dalton Sauvignon Blanc",
                 "he": "דלתון סוביניון בלאן"
               },
-              "price": 179
+              "price": 179,
+              "inStock": true,
+              "updatedAt": "2026-05-04T13:24:48.862Z"
             },
             {
               "id": "gamla_chardonnay",
@@ -624,7 +730,9 @@
                 "en": "Gamla Chardonnay",
                 "he": "גמלא שרדונה"
               },
-              "price": 220
+              "price": 220,
+              "inStock": true,
+              "updatedAt": "2026-05-04T13:24:48.862Z"
             }
           ]
         }
@@ -654,7 +762,9 @@
                 "en": "Pretzels / Peanuts",
                 "he": "בייגלה / בוטנים"
               },
-              "price": 18
+              "price": 18,
+              "inStock": true,
+              "updatedAt": "2026-05-04T13:24:48.862Z"
             },
             {
               "id": "nachos",
@@ -663,7 +773,9 @@
                 "en": "Nachos",
                 "he": "נאצ'וס"
               },
-              "price": 30
+              "price": 30,
+              "inStock": true,
+              "updatedAt": "2026-05-04T13:24:48.862Z"
             },
             {
               "id": "vegetables_platter",
@@ -672,7 +784,9 @@
                 "en": "Vegetables Platter",
                 "he": "פלטת ירקות"
               },
-              "price": 35
+              "price": 35,
+              "inStock": true,
+              "updatedAt": "2026-05-04T13:24:48.862Z"
             },
             {
               "id": "french_fries",
@@ -681,7 +795,9 @@
                 "en": "French Fries",
                 "he": "צ'יפס"
               },
-              "price": 30
+              "price": 30,
+              "inStock": true,
+              "updatedAt": "2026-05-04T13:24:48.862Z"
             },
             {
               "id": "mixed_fries",
@@ -690,7 +806,9 @@
                 "en": "Mixed Fries",
                 "he": "מיקס צ'יפס"
               },
-              "price": 37
+              "price": 37,
+              "inStock": true,
+              "updatedAt": "2026-05-04T13:24:48.862Z"
             },
             {
               "id": "onion_rings",
@@ -699,7 +817,9 @@
                 "en": "Onion Rings",
                 "he": "טבעות בצל"
               },
-              "price": 37
+              "price": 37,
+              "inStock": true,
+              "updatedAt": "2026-05-04T13:24:48.862Z"
             },
             {
               "id": "chicken_tenders/strips",
@@ -708,7 +828,9 @@
                 "en": "Chicken Tenders/Strips",
                 "he": "שניצלונים"
               },
-              "price": 49
+              "price": 49,
+              "inStock": true,
+              "updatedAt": "2026-05-04T13:24:48.862Z"
             },
             {
               "id": "small_chicken_tenders_&_fries",
@@ -717,7 +839,9 @@
                 "en": "Chicken Tenders &  Small Fries",
                 "he": "שניצלונים וצ'יפס קטן"
               },
-              "price": 59
+              "price": 59,
+              "inStock": true,
+              "updatedAt": "2026-05-04T13:24:48.862Z"
             },
             {
               "id": "chicken_tenders_&_large_fries",
@@ -726,7 +850,9 @@
                 "en": "Chicken Tenders & Large Fries",
                 "he": "שניצלונים וצ'יפס גדול"
               },
-              "price": 76
+              "price": 76,
+              "inStock": true,
+              "updatedAt": "2026-05-04T13:24:48.862Z"
             },
             {
               "id": "mixed_fried_platter",
@@ -735,7 +861,9 @@
                 "en": "Mixed Fries Platter",
                 "he": "פלטת מטוגנים"
               },
-              "price": 88
+              "price": 88,
+              "inStock": true,
+              "updatedAt": "2026-05-04T13:24:48.862Z"
             },
             {
               "id": "chicken_wings",
@@ -744,7 +872,9 @@
                 "en": "Chicken Wings",
                 "he": "כנפיים"
               },
-              "price": 46
+              "price": 46,
+              "inStock": true,
+              "updatedAt": "2026-05-04T13:24:48.862Z"
             },
             {
               "id": "hot_dog",
@@ -753,7 +883,9 @@
                 "en": "Hot Dog",
                 "he": "נקניקיה בלחמניה"
               },
-              "price": 25
+              "price": 25,
+              "inStock": true,
+              "updatedAt": "2026-05-04T13:24:48.862Z"
             },
             {
               "id": "daily_salad",
@@ -762,7 +894,9 @@
                 "en": "Daily Salad",
                 "he": "סלט היום"
               },
-              "price": 44
+              "price": 44,
+              "inStock": true,
+              "updatedAt": "2026-05-04T13:24:48.862Z"
             },
             {
               "id": "watermelon_&_feta_cheese",
@@ -771,7 +905,9 @@
                 "en": "Watermelon & Feta Cheese",
                 "he": "אבטיח בולגרית"
               },
-              "price": 45
+              "price": 45,
+              "inStock": true,
+              "updatedAt": "2026-05-04T13:24:48.862Z"
             },
             {
               "id": "fruit_platter",
@@ -780,7 +916,9 @@
                 "en": "Fruit Platter",
                 "he": "פלטת פירות"
               },
-              "price": 69
+              "price": 69,
+              "inStock": true,
+              "updatedAt": "2026-05-04T13:24:48.862Z"
             }
           ]
         }
@@ -810,7 +948,9 @@
                 "en": "Regular / Plain Slice",
                 "he": "משולש רגיל"
               },
-              "price": 15
+              "price": 15,
+              "inStock": true,
+              "updatedAt": "2026-05-04T13:24:48.862Z"
             },
             {
               "id": "toppings_slice",
@@ -819,7 +959,9 @@
                 "en": "Toppings Slice",
                 "he": "משולש תוספות"
               },
-              "price": 18
+              "price": 18,
+              "inStock": true,
+              "updatedAt": "2026-05-04T13:24:48.862Z"
             }
           ]
         },
@@ -838,7 +980,9 @@
                 "en": "Personal Pie",
                 "he": "פיצה אישית"
               },
-              "price": 52
+              "price": 52,
+              "inStock": true,
+              "updatedAt": "2026-05-04T13:24:48.862Z"
             },
             {
               "id": "family_/_large_pie",
@@ -847,7 +991,9 @@
                 "en": "Family / Large Pie",
                 "he": "פיצה משפחתית"
               },
-              "price": 88
+              "price": 88,
+              "inStock": true,
+              "updatedAt": "2026-05-04T13:24:48.862Z"
             },
             {
               "id": "focaccia_&_dips",
@@ -856,7 +1002,9 @@
                 "en": "Focaccia & Dips",
                 "he": "פוקאצ'ה ומטבלים"
               },
-              "price": 32
+              "price": 32,
+              "inStock": true,
+              "updatedAt": "2026-05-04T13:24:48.862Z"
             }
           ]
         },
@@ -875,7 +1023,9 @@
                 "en": "Green / Black Olives, Fresh Mushrooms, White/Red Onion, Jalapeno, Tomatoes",
                 "he": "זיתים ירוקים/שחורים, פטריות, בצל לבן / סגול, פלפל חריף, עגבניות שרי"
               },
-              "price": 5
+              "price": 5,
+              "inStock": true,
+              "updatedAt": "2026-05-04T13:24:48.862Z"
             }
           ]
         },
@@ -894,7 +1044,9 @@
                 "en": "Tuna, Anchovies, Feta Cheese, Goat Cheese, Baby Mozzarella",
                 "he": "טונה, אנשובי, גבינה בולגרית, גבינת עזים, בייבי מוצרלה"
               },
-              "price": 9
+              "price": 9,
+              "inStock": true,
+              "updatedAt": "2026-05-04T13:24:48.862Z"
             }
           ]
         },
@@ -913,7 +1065,9 @@
                 "en": "Bootke: Goat Cheese, Pesto & Honey",
                 "he": "פיצת הבית: גבינת עיזים, פסטו ודבש"
               },
-              "price": "60/100"
+              "price": "60/100",
+              "inStock": true,
+              "updatedAt": "2026-05-04T13:24:48.862Z"
             },
             {
               "id": "greek:_feta_cheese,_olives_&_onions",
@@ -922,7 +1076,9 @@
                 "en": "Greek: Feta Cheese, Olives & Onions",
                 "he": "יוונית: בולגרית, זיתים ובצל"
               },
-              "price": "60/100"
+              "price": "60/100",
+              "inStock": true,
+              "updatedAt": "2026-05-04T13:24:48.862Z"
             },
             {
               "id": "jerusalem:_olives,_mushrooms,_cherry_tomatoes",
@@ -931,7 +1087,9 @@
                 "en": "Jerusalem: Olives, Mushrooms, Cherry Tomatoes",
                 "he": "ירושלמית: זיתים, פטריות, עגבניות שרי"
               },
-              "price": "60/100"
+              "price": "60/100",
+              "inStock": true,
+              "updatedAt": "2026-05-04T13:24:48.862Z"
             }
           ]
         }
@@ -961,7 +1119,9 @@
                 "en": "Coca-Cola / Zero",
                 "he": "קולה / זירו"
               },
-              "price": 14
+              "price": 14,
+              "inStock": true,
+              "updatedAt": "2026-05-04T13:24:48.862Z"
             },
             {
               "id": "sprite_/_zero",
@@ -970,7 +1130,9 @@
                 "en": "Sprite / Zero",
                 "he": "ספרייט / זירו"
               },
-              "price": 14
+              "price": 14,
+              "inStock": true,
+              "updatedAt": "2026-05-04T13:24:48.862Z"
             },
             {
               "id": "fuze-team_(iced_tea).",
@@ -979,7 +1141,9 @@
                 "en": "Fuze-Tea (Iced Tea)",
                 "he": "פיוזטי"
               },
-              "price": 14
+              "price": 14,
+              "inStock": true,
+              "updatedAt": "2026-05-04T13:24:48.862Z"
             },
             {
               "id": "flavored_water",
@@ -988,7 +1152,9 @@
                 "en": "Flavored Water",
                 "he": "מים בטעמים"
               },
-              "price": 14
+              "price": 14,
+              "inStock": true,
+              "updatedAt": "2026-05-04T13:24:48.862Z"
             },
             {
               "id": "fresh_orange_juice",
@@ -997,7 +1163,9 @@
                 "en": "Fresh Orange Juice",
                 "he": "תפוזים סחוט"
               },
-              "price": "20/25"
+              "price": "20/25",
+              "inStock": true,
+              "updatedAt": "2026-05-04T13:24:48.862Z"
             },
             {
               "id": "water_/_soda_(sparkling_water)",
@@ -1006,7 +1174,9 @@
                 "en": "Water / Soda (Sparkling Water)",
                 "he": "סודה / מים"
               },
-              "price": 10
+              "price": 10,
+              "inStock": true,
+              "updatedAt": "2026-05-04T13:24:48.862Z"
             },
             {
               "id": "lemon-mint_/_grapefruit_/_orange",
@@ -1015,7 +1185,9 @@
                 "en": "Lemon-Mint / Grapefruit / Orange",
                 "he": "לימונענע / אשכוליות / תפוזים"
               },
-              "price": 12
+              "price": 12,
+              "inStock": true,
+              "updatedAt": "2026-05-04T13:24:48.862Z"
             },
             {
               "id": "grapes_/_apple_/_strawberry-banana",
@@ -1024,7 +1196,9 @@
                 "en": "Grapes / Apple / Strawberry-Banana",
                 "he": "ענבים / תפוחים / תות-בננה"
               },
-              "price": 12
+              "price": 12,
+              "inStock": true,
+              "updatedAt": "2026-05-04T13:24:48.862Z"
             },
             {
               "id": "san_pellegrino",
@@ -1033,7 +1207,9 @@
                 "en": "San Pellegrino",
                 "he": "סן פלגרינו"
               },
-              "price": 12
+              "price": 12,
+              "inStock": true,
+              "updatedAt": "2026-05-04T13:24:48.862Z"
             }
           ]
         },
@@ -1052,7 +1228,9 @@
                 "en": "Coca-Cola / Zero",
                 "he": "קולה / זירו"
               },
-              "price": 12
+              "price": 12,
+              "inStock": true,
+              "updatedAt": "2026-05-04T13:24:48.862Z"
             },
             {
               "id": "sprite_/_zero",
@@ -1061,7 +1239,9 @@
                 "en": "Sprite / Zero",
                 "he": "ספרייט / זירו"
               },
-              "price": 12
+              "price": 12,
+              "inStock": true,
+              "updatedAt": "2026-05-04T13:24:48.862Z"
             },
             {
               "id": "fanta",
@@ -1070,7 +1250,9 @@
                 "en": "Fanta",
                 "he": "פאנטה"
               },
-              "price": 12
+              "price": 12,
+              "inStock": true,
+              "updatedAt": "2026-05-04T13:24:48.862Z"
             },
             {
               "id": "xl_(energy_drink)",
@@ -1079,7 +1261,9 @@
                 "en": "XL (Energy Drink)",
                 "he": "XL"
               },
-              "price": 12
+              "price": 12,
+              "inStock": true,
+              "updatedAt": "2026-05-04T13:24:48.862Z"
             },
             {
               "id": "water",
@@ -1088,7 +1272,9 @@
                 "en": "Water",
                 "he": "מים"
               },
-              "price": 12
+              "price": 12,
+              "inStock": true,
+              "updatedAt": "2026-05-04T13:24:48.862Z"
             }
           ]
         }
@@ -1118,7 +1304,9 @@
                 "en": "Espresso",
                 "he": "אספרסו"
               },
-              "price": 10
+              "price": 10,
+              "inStock": true,
+              "updatedAt": "2026-05-04T13:24:48.862Z"
             },
             {
               "id": "cappuccino",
@@ -1127,7 +1315,9 @@
                 "en": "Cappuccino",
                 "he": "הפוך"
               },
-              "price": "12/15"
+              "price": "12/15",
+              "inStock": true,
+              "updatedAt": "2026-05-04T13:24:48.862Z"
             },
             {
               "id": "tקש",
@@ -1136,7 +1326,9 @@
                 "en": "Tea",
                 "he": "תה"
               },
-              "price": 15
+              "price": 15,
+              "inStock": true,
+              "updatedAt": "2026-05-04T13:24:48.862Z"
             },
             {
               "id": "black_coffee",
@@ -1145,7 +1337,9 @@
                 "en": "Black Coffee",
                 "he": "קפה שחור"
               },
-              "price": 12
+              "price": 12,
+              "inStock": true,
+              "updatedAt": "2026-05-04T13:24:48.862Z"
             },
             {
               "id": "americano",
@@ -1154,7 +1348,9 @@
                 "en": "Americano",
                 "he": "אמריקנו"
               },
-              "price": "12/15"
+              "price": "12/15",
+              "inStock": true,
+              "updatedAt": "2026-05-04T13:24:48.862Z"
             },
             {
               "id": "chai_latte",
@@ -1163,7 +1359,9 @@
                 "en": "Chai Latte",
                 "he": "צ'אי לאטה"
               },
-              "price": 18
+              "price": 18,
+              "inStock": true,
+              "updatedAt": "2026-05-04T13:24:48.862Z"
             },
             {
               "id": "sahlab",
@@ -1172,7 +1370,9 @@
                 "en": "Sahlab",
                 "he": "סחלב"
               },
-              "price": 20
+              "price": 20,
+              "inStock": true,
+              "updatedAt": "2026-05-04T13:24:48.862Z"
             },
             {
               "id": "hot_cider",
@@ -1181,7 +1381,9 @@
                 "en": "Hot Cider",
                 "he": "סיידר חם"
               },
-              "price": 25
+              "price": 25,
+              "inStock": true,
+              "updatedAt": "2026-05-04T13:24:48.862Z"
             }
           ]
         }
@@ -1189,5 +1391,5 @@
       "showCategoryName": false
     }
   ],
-  "lastUpdated": "2026-05-03T06:55:26.396Z"
+  "lastUpdated": "2026-05-04T13:24:48.861Z"
 }

@@ -9,7 +9,7 @@ export function generateHome(){
       <main class="home-main">
         <h1>Homepage coming soon</h1>
         <h3> Visit our menu: </h3>
-        <div class="nav-lang-container">
+        <div class="nav-lang-container nav-lang-container-home">
           <a class="nav-lang home" href="./menu-en.html">English Menu</a>
           |
           <a class="nav-lang home" href="./menu-he.html">תפריט בעברית</a>
