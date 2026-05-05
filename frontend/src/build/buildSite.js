@@ -14,4 +14,4 @@ fs.copyFileSync(
     "src/utils/speech.js",
     "dist/speech.js"
 );
-console.log("Site built successfully 🚀");
+console.log("Site built successfully.");

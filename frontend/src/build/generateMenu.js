@@ -23,11 +23,11 @@ export function generateMenu(lang = "he"){
                 class="speak-btn"
                 data-text="${
                           lang === "he"
-                            ? `${item.name.he} ${Array.isArray(item.price)
+                            ? `${item.name.he}, ${Array.isArray(item.price)
                               ? item.price.join(" או ")
                               : item.price
                             } שקלים`
-                            : `${item.name.en} ${Array.isArray(item.price)
+                            : `${item.name.en}, ${Array.isArray(item.price)
                               ? item.price.join(" or ")
                               : item.price
                             } shekels`

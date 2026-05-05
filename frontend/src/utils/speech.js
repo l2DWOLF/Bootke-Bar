@@ -13,6 +13,7 @@ function initSpeech() {
 
     loadVoices();
     speechSynthesis.onvoiceschanged = loadVoices;
+    
 
     buttons.forEach(btn => {
         btn.addEventListener("click", () => {
@@ -30,8 +31,9 @@ function initSpeech() {
                 v.lang.toLowerCase().includes(lang === "he" ? "he" : "en")
             );
 
-            if (voice) {
+            if(voice){
                 utterance.voice = voice;
+                utterance.rate = 0.8;
             };
             utterance.lang = lang === "he" ? "he-IL" : "en-US";
 
