@@ -13,7 +13,7 @@ export function generateHome(){
           |
           <a class="nav-lang home" href="./menu-he.html">תפריט בעברית</a>
         </div>
-        <h3>Homepage Coming Soon :)</h3>
+        <h3>Homepage Coming Soon</h3>
       </main>
     `
     });
