@@ -5,7 +5,8 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "cross-env NODE_ENV=development nodemon app"
+    "dev": "cross-env NODE_ENV=development nodemon app",
+    "seed:menu": "node DB/seed/seedMenu.js"
   },
   "keywords": [],
   "author": "IE",

@@ -1,0 +1,1395 @@
+{
+    "categories": [
+        {
+            "id": "beers",
+            "order": 1,
+            "name": {
+                "en": "Beers",
+                "he": "בירות"
+            },
+            "subCategories": [
+                {
+                    "id": "draft",
+                    "order": 1,
+                    "name": {
+                        "en": "Draft Beer",
+                        "he": "בירות מהחבית"
+                    },
+                    "items": [
+                        {
+                            "id": "goldstar",
+                            "order": 1,
+                            "name": {
+                                "en": "Unfiltered Goldstar",
+                                "he": "גולדסטאר לא מסוננת"
+                            },
+                            "price": "34/39",
+                            "inStock": true,
+                            "updatedAt": "2026-05-04T13:24:48.862Z"
+                        },
+                        {
+                            "id": "carlsberg",
+                            "order": 2,
+                            "name": {
+                                "en": "Carlsberg",
+                                "he": "קרלסברג"
+                            },
+                            "price": "32/37",
+                            "inStock": true,
+                            "updatedAt": "2026-05-04T13:24:48.862Z"
+                        },
+                        {
+                            "id": "carlsberg_luma",
+                            "order": 3,
+                            "name": {
+                                "en": "Carlsberg Luma",
+                                "he": "קרלסברג לומה"
+                            },
+                            "price": "34/39",
+                            "inStock": true,
+                            "updatedAt": "2026-05-04T13:24:48.862Z"
+                        },
+                        {
+                            "id": "tuborg",
+                            "order": 4,
+                            "name": {
+                                "en": "Tuborg",
+                                "he": "טובורג"
+                            },
+                            "price": "32/37",
+                            "inStock": true,
+                            "updatedAt": "2026-05-04T13:24:48.862Z"
+                        },
+                        {
+                            "id": "blanc_1664",
+                            "order": 5,
+                            "name": {
+                                "en": "1664 Blanc",
+                                "he": "בלאנק 1664"
+                            },
+                            "price": "34/39",
+                            "inStock": true,
+                            "updatedAt": "2026-05-04T13:24:48.862Z"
+                        },
+                        {
+                            "id": "weihenstephan",
+                            "order": 6,
+                            "name": {
+                                "en": "Weihenstephan",
+                                "he": "ויינשטפן"
+                            },
+                            "price": "34/39",
+                            "inStock": true,
+                            "updatedAt": "2026-05-04T13:24:48.862Z"
+                        },
+                        {
+                            "id": "paulaner",
+                            "order": 7,
+                            "name": {
+                                "en": "Paulaner",
+                                "he": "פאולנר"
+                            },
+                            "price": "34/39",
+                            "inStock": true,
+                            "updatedAt": "2026-05-04T13:24:48.862Z"
+                        },
+                        {
+                            "id": "shapira_lager",
+                            "order": 8,
+                            "name": {
+                                "en": "Shapira Lager",
+                                "he": "שפירא לאגר"
+                            },
+                            "price": "34/39",
+                            "inStock": true,
+                            "updatedAt": "2026-05-04T13:24:48.862Z"
+                        },
+                        {
+                            "id": "shapira_ipa",
+                            "order": 9,
+                            "name": {
+                                "en": "Shapira IPA",
+                                "he": "שפירא IPA"
+                            },
+                            "price": "34/39",
+                            "inStock": true,
+                            "updatedAt": "2026-05-04T13:24:48.862Z"
+                        },
+                        {
+                            "id": "shapira_wheat",
+                            "order": 10,
+                            "name": {
+                                "en": "Shapira Wheat",
+                                "he": "שפירא חיטה"
+                            },
+                            "price": "34/39",
+                            "inStock": true,
+                            "updatedAt": "2026-05-04T13:24:48.862Z"
+                        },
+                        {
+                            "id": "shapira_pale_ale",
+                            "order": 11,
+                            "name": {
+                                "en": "Shapira Pale Ale",
+                                "he": "שפירא פייל אייל"
+                            },
+                            "price": "34/39",
+                            "inStock": true,
+                            "updatedAt": "2026-05-04T13:24:48.862Z"
+                        }
+                    ]
+                },
+                {
+                    "id": "bottled",
+                    "order": 2,
+                    "name": {
+                        "en": "Bottled Beer",
+                        "he": "בירות מבקבוק"
+                    },
+                    "items": [
+                        {
+                            "id": "heineken",
+                            "order": 1,
+                            "name": {
+                                "en": "Heineken",
+                                "he": "הייניקן"
+                            },
+                            "price": 28,
+                            "inStock": true,
+                            "updatedAt": "2026-05-04T13:24:48.862Z"
+                        },
+                        {
+                            "id": "sol",
+                            "order": 2,
+                            "name": {
+                                "en": "Sol",
+                                "he": "סול"
+                            },
+                            "price": 28,
+                            "inStock": true,
+                            "updatedAt": "2026-05-04T13:24:48.862Z"
+                        },
+                        {
+                            "id": "breezer",
+                            "order": 3,
+                            "name": {
+                                "en": "Breezer Flavors",
+                                "he": "בריזר בטעמים"
+                            },
+                            "price": 30,
+                            "inStock": true,
+                            "updatedAt": "2026-05-04T13:24:48.862Z"
+                        },
+                        {
+                            "id": "red_stripe",
+                            "order": 4,
+                            "name": {
+                                "en": "Red Stripe",
+                                "he": "רד סטרייפ"
+                            },
+                            "price": 29,
+                            "inStock": true,
+                            "updatedAt": "2026-05-04T13:24:48.862Z"
+                        },
+                        {
+                            "id": "corona",
+                            "order": 5,
+                            "name": {
+                                "en": "Corona",
+                                "he": "קורונה"
+                            },
+                            "price": 30,
+                            "inStock": true,
+                            "updatedAt": "2026-05-04T13:24:48.862Z"
+                        },
+                        {
+                            "id": "stella",
+                            "order": 6,
+                            "name": {
+                                "en": "Stella",
+                                "he": "סטלה"
+                            },
+                            "price": 29,
+                            "inStock": true,
+                            "updatedAt": "2026-05-04T13:24:48.862Z"
+                        },
+                        {
+                            "id": "blanc",
+                            "order": 7,
+                            "name": {
+                                "en": "Blanc 1664",
+                                "he": "בלאנק"
+                            },
+                            "price": 32,
+                            "inStock": true,
+                            "updatedAt": "2026-05-04T13:24:48.862Z"
+                        },
+                        {
+                            "id": "kasteel_rouge",
+                            "order": 8,
+                            "name": {
+                                "en": "Kasteel Rouge",
+                                "he": "קסטיל רוז'"
+                            },
+                            "price": 34,
+                            "inStock": true,
+                            "updatedAt": "2026-05-04T13:24:48.862Z"
+                        },
+                        {
+                            "id": "liefmans",
+                            "order": 9,
+                            "name": {
+                                "en": "Liefmans",
+                                "he": "ליפמנס"
+                            },
+                            "price": 33,
+                            "inStock": true,
+                            "updatedAt": "2026-05-04T13:24:48.862Z"
+                        },
+                        {
+                            "id": "weihenstephan_vitus",
+                            "order": 10,
+                            "name": {
+                                "en": "Weihenstephan Vitus",
+                                "he": "ויינשטפן ויטוס"
+                            },
+                            "price": 36,
+                            "inStock": true,
+                            "updatedAt": "2026-05-04T13:24:48.862Z"
+                        },
+                        {
+                            "id": "maredsous",
+                            "order": 11,
+                            "name": {
+                                "en": "Maredsous",
+                                "he": "מרדסו"
+                            },
+                            "price": 36,
+                            "inStock": true,
+                            "updatedAt": "2026-05-04T13:24:48.862Z"
+                        },
+                        {
+                            "id": "guinness",
+                            "order": 12,
+                            "name": {
+                                "en": "Guinness",
+                                "he": "גינס"
+                            },
+                            "price": 30,
+                            "inStock": true,
+                            "updatedAt": "2026-05-04T13:24:48.862Z"
+                        },
+                        {
+                            "id": "malka",
+                            "order": 13,
+                            "name": {
+                                "en": "Malka Blonde",
+                                "he": "מלכה בהירה"
+                            },
+                            "price": 32,
+                            "inStock": true,
+                            "updatedAt": "2026-05-04T13:24:48.862Z"
+                        },
+                        {
+                            "id": "negev_oasis",
+                            "order": 14,
+                            "name": {
+                                "en": "Negev Oasis",
+                                "he": "נגב אואזיס"
+                            },
+                            "price": 32,
+                            "inStock": true,
+                            "updatedAt": "2026-05-04T13:24:48.862Z"
+                        },
+                        {
+                            "id": "shikma",
+                            "order": 15,
+                            "name": {
+                                "en": "Shikma",
+                                "he": "שקמה"
+                            },
+                            "price": 32,
+                            "inStock": true,
+                            "updatedAt": "2026-05-04T13:24:48.862Z"
+                        },
+                        {
+                            "id": "jem's",
+                            "order": 16,
+                            "name": {
+                                "en": "Jem's",
+                                "he": "ג'מס"
+                            },
+                            "price": 32,
+                            "inStock": true,
+                            "updatedAt": "2026-05-04T13:24:48.862Z"
+                        },
+                        {
+                            "id": "gibor",
+                            "order": 17,
+                            "name": {
+                                "en": "Gibor",
+                                "he": "גיבור"
+                            },
+                            "price": 32,
+                            "inStock": true,
+                            "updatedAt": "2026-05-04T13:24:48.862Z"
+                        },
+                        {
+                            "id": "somersby",
+                            "order": 18,
+                            "name": {
+                                "en": "Somersby (Apple / Mango)",
+                                "he": "סומרסבי תפוחים / מנגו"
+                            },
+                            "price": 32,
+                            "inStock": true,
+                            "updatedAt": "2026-05-04T13:24:48.862Z"
+                        },
+                        {
+                            "id": "daura",
+                            "order": 19,
+                            "name": {
+                                "en": "Daura (Gluten Free)",
+                                "he": "דאורה (ללא גלוטן)"
+                            },
+                            "price": 30,
+                            "inStock": true,
+                            "updatedAt": "2026-05-04T13:24:48.862Z"
+                        }
+                    ]
+                }
+            ],
+            "showCategoryName": false
+        },
+        {
+            "id": "hot_drinks_alcoholic",
+            "order": 2,
+            "name": {
+                "en": "Hot Alcoholic Drinks",
+                "he": "חם ואלכוהולי"
+            },
+            "subCategories": [
+                {
+                    "id": "hot_alc",
+                    "order": 1,
+                    "name": {
+                        "en": "Hot Alcoholic",
+                        "he": "חם ואלכוהולי"
+                    },
+                    "items": [
+                        {
+                            "id": "sangria_hot",
+                            "order": 1,
+                            "name": {
+                                "en": "Hot Sangria",
+                                "he": "סנגריה חמה"
+                            },
+                            "price": 38,
+                            "inStock": true,
+                            "updatedAt": "2026-05-04T13:24:48.862Z"
+                        },
+                        {
+                            "id": "cider_hot",
+                            "order": 2,
+                            "name": {
+                                "en": "Hot Cider",
+                                "he": "סיידר חם"
+                            },
+                            "price": 50,
+                            "inStock": true,
+                            "updatedAt": "2026-05-04T13:24:48.862Z"
+                        },
+                        {
+                            "id": "irish_coffee",
+                            "order": 3,
+                            "name": {
+                                "en": "Irish Coffee",
+                                "he": "קפה אירי"
+                            },
+                            "price": 54,
+                            "inStock": true,
+                            "updatedAt": "2026-05-04T13:24:48.862Z"
+                        }
+                    ]
+                }
+            ],
+            "showCategoryName": false
+        },
+        {
+            "id": "cocktails",
+            "order": 3,
+            "name": {
+                "en": "Cocktails & Mixed Drinks",
+                "he": "קוקטיילים וערבובים"
+            },
+            "subCategories": [
+                {
+                    "id": "mixed",
+                    "order": 1,
+                    "name": {
+                        "en": "Mixed Drinks",
+                        "he": "ערבובים"
+                    },
+                    "items": [
+                        {
+                            "id": "vodka_xl",
+                            "order": 1,
+                            "name": {
+                                "en": "XL Vodka",
+                                "he": "וודקה XL"
+                            },
+                            "price": 58,
+                            "inStock": true,
+                            "updatedAt": "2026-05-04T13:24:48.862Z"
+                        },
+                        {
+                            "id": "vodka_premium",
+                            "order": 2,
+                            "name": {
+                                "en": "XL Vodka Premium",
+                                "he": "וודקה XL פרימיום"
+                            },
+                            "price": 65,
+                            "inStock": true,
+                            "updatedAt": "2026-05-04T13:24:48.862Z"
+                        },
+                        {
+                            "id": "gin_tonic",
+                            "order": 3,
+                            "name": {
+                                "en": "Gin & Tonic",
+                                "he": "ג'ין טוניק"
+                            },
+                            "price": 60,
+                            "inStock": true,
+                            "updatedAt": "2026-05-04T13:24:48.862Z"
+                        },
+                        {
+                            "id": "arak_lemon",
+                            "order": 4,
+                            "name": {
+                                "en": "Arak Lemon",
+                                "he": "ערק לימונים"
+                            },
+                            "price": 49,
+                            "inStock": true,
+                            "updatedAt": "2026-05-04T13:24:48.862Z"
+                        },
+                        {
+                            "id": "lemondate-mint_slushy",
+                            "order": 5,
+                            "name": {
+                                "en": "Lemon-Mint Slushy",
+                                "he": "לימונענע גרוס"
+                            },
+                            "price": "35/55",
+                            "inStock": true,
+                            "updatedAt": "2026-05-04T13:24:48.862Z"
+                        }
+                    ]
+                },
+                {
+                    "id": "cocktails",
+                    "order": 2,
+                    "name": {
+                        "en": "Cocktails",
+                        "he": "קוקטיילים"
+                    },
+                    "items": [
+                        {
+                            "id": "aperol_spritz",
+                            "order": 1,
+                            "name": {
+                                "en": "Aperol Spritz",
+                                "he": "אפרול שפריץ"
+                            },
+                            "price": 48,
+                            "inStock": true,
+                            "updatedAt": "2026-05-04T13:24:48.862Z"
+                        },
+                        {
+                            "id": "margarita",
+                            "order": 2,
+                            "name": {
+                                "en": "Margarita",
+                                "he": "מרגריטה קלאסית"
+                            },
+                            "price": 58,
+                            "inStock": true,
+                            "updatedAt": "2026-05-04T13:24:48.862Z"
+                        },
+                        {
+                            "id": "mojito",
+                            "order": 3,
+                            "name": {
+                                "en": "Mojito",
+                                "he": "מוחיטו"
+                            },
+                            "price": 58,
+                            "inStock": true,
+                            "updatedAt": "2026-05-04T13:24:48.862Z"
+                        },
+                        {
+                            "id": "negroni",
+                            "order": 4,
+                            "name": {
+                                "en": "Negroni",
+                                "he": "נגרוני"
+                            },
+                            "price": 60,
+                            "inStock": true,
+                            "updatedAt": "2026-05-04T13:24:48.862Z"
+                        },
+                        {
+                            "id": "cobra",
+                            "order": 5,
+                            "name": {
+                                "en": "Cobra",
+                                "he": "קוברה"
+                            },
+                            "price": 64,
+                            "inStock": true,
+                            "updatedAt": "2026-05-04T13:24:48.862Z"
+                        }
+                    ]
+                }
+            ],
+            "showCategoryName": false
+        },
+        {
+            "id": "bottles",
+            "order": 4,
+            "name": {
+                "en": "Bottles",
+                "he": "בקבוקים"
+            },
+            "subCategories": [
+                {
+                    "id": "bottles_+_mixers",
+                    "order": 1,
+                    "name": {
+                        "en": "Bottles + Mixers",
+                        "he": "בקבוקים (כולל ערבובים)"
+                    },
+                    "items": [
+                        {
+                            "id": "stoli_/_finlandia",
+                            "order": 1,
+                            "name": {
+                                "en": "Stoli / Finlandia",
+                                "he": "סטולי / פינלנדיה"
+                            },
+                            "price": 600,
+                            "inStock": true,
+                            "updatedAt": "2026-05-04T13:24:48.862Z"
+                        },
+                        {
+                            "id": "beluga",
+                            "order": 2,
+                            "name": {
+                                "en": "Beluga",
+                                "he": "בלוגה"
+                            },
+                            "price": 900,
+                            "inStock": true,
+                            "updatedAt": "2026-05-04T13:24:48.862Z"
+                        },
+                        {
+                            "id": "arak_elite",
+                            "order": 3,
+                            "name": {
+                                "en": "Arak Elite",
+                                "he": "ערק עלית"
+                            },
+                            "price": 360,
+                            "inStock": true,
+                            "updatedAt": "2026-05-04T13:24:48.862Z"
+                        }
+                    ]
+                }
+            ],
+            "showCategoryName": false
+        },
+        {
+            "id": "wine",
+            "order": 5,
+            "name": {
+                "en": "Wine",
+                "he": "יין"
+            },
+            "subCategories": [
+                {
+                    "id": "glass",
+                    "order": 1,
+                    "name": {
+                        "en": "Glass",
+                        "he": "בכוסות"
+                    },
+                    "items": [
+                        {
+                            "id": "\"midbar\"_-_white_/_red_/_rose",
+                            "order": 1,
+                            "name": {
+                                "en": "Midbar - white / red / rose",
+                                "he": "מדבר - אדום / לבן / רוזה"
+                            },
+                            "price": 30,
+                            "inStock": true,
+                            "updatedAt": "2026-05-04T13:24:48.862Z"
+                        },
+                        {
+                            "id": "cava",
+                            "order": 2,
+                            "name": {
+                                "en": "Cava",
+                                "he": "קאווה"
+                            },
+                            "price": 34,
+                            "inStock": true,
+                            "updatedAt": "2026-05-04T13:24:48.862Z"
+                        }
+                    ]
+                },
+                {
+                    "id": "red",
+                    "order": 2,
+                    "name": {
+                        "en": "Red",
+                        "he": "אדומים"
+                    },
+                    "items": [
+                        {
+                            "id": "gamla_cabarnet",
+                            "order": 1,
+                            "name": {
+                                "en": "Gamla Cabarnet",
+                                "he": "גמלא קברנה"
+                            },
+                            "price": 229,
+                            "inStock": true,
+                            "updatedAt": "2026-05-04T13:24:48.862Z"
+                        },
+                        {
+                            "id": "yarden_merlot",
+                            "order": 2,
+                            "name": {
+                                "en": "Yarden Merlot",
+                                "he": "ירדן מרלו"
+                            },
+                            "price": 269,
+                            "inStock": true,
+                            "updatedAt": "2026-05-04T13:24:48.862Z"
+                        },
+                        {
+                            "id": "yarden_cabarnet_frank",
+                            "order": 3,
+                            "name": {
+                                "en": "Yarden Cabarnet Frank",
+                                "he": "ירדן קברנה פרנק"
+                            },
+                            "price": 289,
+                            "inStock": true,
+                            "updatedAt": "2026-05-04T13:24:48.862Z"
+                        }
+                    ]
+                },
+                {
+                    "id": "white",
+                    "order": 3,
+                    "name": {
+                        "en": "White",
+                        "he": "לבנים"
+                    },
+                    "items": [
+                        {
+                            "id": "blue_nun_gewurtz",
+                            "order": 1,
+                            "name": {
+                                "en": "Blue Nun Gewurtz",
+                                "he": "בלו נאן גוורץ"
+                            },
+                            "price": 152,
+                            "inStock": true,
+                            "updatedAt": "2026-05-04T13:24:48.862Z"
+                        },
+                        {
+                            "id": "dalton_sauvignon_blanc",
+                            "order": 2,
+                            "name": {
+                                "en": "Dalton Sauvignon Blanc",
+                                "he": "דלתון סוביניון בלאן"
+                            },
+                            "price": 179,
+                            "inStock": true,
+                            "updatedAt": "2026-05-04T13:24:48.862Z"
+                        },
+                        {
+                            "id": "gamla_chardonnay",
+                            "order": 3,
+                            "name": {
+                                "en": "Gamla Chardonnay",
+                                "he": "גמלא שרדונה"
+                            },
+                            "price": 220,
+                            "inStock": true,
+                            "updatedAt": "2026-05-04T13:24:48.862Z"
+                        }
+                    ]
+                }
+            ],
+            "showCategoryName": true
+        },
+        {
+            "id": "snacks_&_appetizers",
+            "order": 6,
+            "name": {
+                "en": "Snacks & Appetizers",
+                "he": "נשנושים"
+            },
+            "subCategories": [
+                {
+                    "id": "snacks_&_appetizers",
+                    "order": 1,
+                    "name": {
+                        "en": "Snacks & Appetizers",
+                        "he": "נשנושים"
+                    },
+                    "items": [
+                        {
+                            "id": "pretzels_/_peanuts",
+                            "order": 1,
+                            "name": {
+                                "en": "Pretzels / Peanuts",
+                                "he": "בייגלה / בוטנים"
+                            },
+                            "price": 18,
+                            "inStock": true,
+                            "updatedAt": "2026-05-04T13:24:48.862Z"
+                        },
+                        {
+                            "id": "nachos",
+                            "order": 2,
+                            "name": {
+                                "en": "Nachos",
+                                "he": "נאצ'וס"
+                            },
+                            "price": 30,
+                            "inStock": true,
+                            "updatedAt": "2026-05-04T13:24:48.862Z"
+                        },
+                        {
+                            "id": "vegetables_platter",
+                            "order": 3,
+                            "name": {
+                                "en": "Vegetables Platter",
+                                "he": "פלטת ירקות"
+                            },
+                            "price": 35,
+                            "inStock": true,
+                            "updatedAt": "2026-05-04T13:24:48.862Z"
+                        },
+                        {
+                            "id": "french_fries",
+                            "order": 4,
+                            "name": {
+                                "en": "French Fries",
+                                "he": "צ'יפס"
+                            },
+                            "price": 30,
+                            "inStock": true,
+                            "updatedAt": "2026-05-04T13:24:48.862Z"
+                        },
+                        {
+                            "id": "mixed_fries",
+                            "order": 5,
+                            "name": {
+                                "en": "Mixed Fries",
+                                "he": "מיקס צ'יפס"
+                            },
+                            "price": 37,
+                            "inStock": true,
+                            "updatedAt": "2026-05-04T13:24:48.862Z"
+                        },
+                        {
+                            "id": "onion_rings",
+                            "order": 6,
+                            "name": {
+                                "en": "Onion Rings",
+                                "he": "טבעות בצל"
+                            },
+                            "price": 37,
+                            "inStock": true,
+                            "updatedAt": "2026-05-04T13:24:48.862Z"
+                        },
+                        {
+                            "id": "chicken_tenders/strips",
+                            "order": 7,
+                            "name": {
+                                "en": "Chicken Tenders/Strips",
+                                "he": "שניצלונים"
+                            },
+                            "price": 49,
+                            "inStock": true,
+                            "updatedAt": "2026-05-04T13:24:48.862Z"
+                        },
+                        {
+                            "id": "small_chicken_tenders_&_fries",
+                            "order": 8,
+                            "name": {
+                                "en": "Chicken Tenders &  Small Fries",
+                                "he": "שניצלונים וצ'יפס קטן"
+                            },
+                            "price": 59,
+                            "inStock": true,
+                            "updatedAt": "2026-05-04T13:24:48.862Z"
+                        },
+                        {
+                            "id": "chicken_tenders_&_large_fries",
+                            "order": 9,
+                            "name": {
+                                "en": "Chicken Tenders & Large Fries",
+                                "he": "שניצלונים וצ'יפס גדול"
+                            },
+                            "price": 76,
+                            "inStock": true,
+                            "updatedAt": "2026-05-04T13:24:48.862Z"
+                        },
+                        {
+                            "id": "mixed_fried_platter",
+                            "order": 10,
+                            "name": {
+                                "en": "Mixed Fries Platter",
+                                "he": "פלטת מטוגנים"
+                            },
+                            "price": 88,
+                            "inStock": true,
+                            "updatedAt": "2026-05-04T13:24:48.862Z"
+                        },
+                        {
+                            "id": "chicken_wings",
+                            "order": 11,
+                            "name": {
+                                "en": "Chicken Wings",
+                                "he": "כנפיים"
+                            },
+                            "price": 46,
+                            "inStock": true,
+                            "updatedAt": "2026-05-04T13:24:48.862Z"
+                        },
+                        {
+                            "id": "hot_dog",
+                            "order": 12,
+                            "name": {
+                                "en": "Hot Dog",
+                                "he": "נקניקיה בלחמניה"
+                            },
+                            "price": 25,
+                            "inStock": true,
+                            "updatedAt": "2026-05-04T13:24:48.862Z"
+                        },
+                        {
+                            "id": "daily_salad",
+                            "order": 13,
+                            "name": {
+                                "en": "Daily Salad",
+                                "he": "סלט היום"
+                            },
+                            "price": 44,
+                            "inStock": true,
+                            "updatedAt": "2026-05-04T13:24:48.862Z"
+                        },
+                        {
+                            "id": "watermelon_&_feta_cheese",
+                            "order": 14,
+                            "name": {
+                                "en": "Watermelon & Feta Cheese",
+                                "he": "אבטיח בולגרית"
+                            },
+                            "price": 45,
+                            "inStock": true,
+                            "updatedAt": "2026-05-04T13:24:48.862Z"
+                        },
+                        {
+                            "id": "fruit_platter",
+                            "order": 15,
+                            "name": {
+                                "en": "Fruit Platter",
+                                "he": "פלטת פירות"
+                            },
+                            "price": 69,
+                            "inStock": true,
+                            "updatedAt": "2026-05-04T13:24:48.862Z"
+                        }
+                    ]
+                }
+            ],
+            "showCategoryName": false
+        },
+        {
+            "id": "pizza",
+            "order": 7,
+            "name": {
+                "en": "Pizza",
+                "he": "פיצות"
+            },
+            "subCategories": [
+                {
+                    "id": "slices",
+                    "order": 1,
+                    "name": {
+                        "en": "Slices",
+                        "he": "משולשים"
+                    },
+                    "items": [
+                        {
+                            "id": "regular_/_plain_slice",
+                            "order": 1,
+                            "name": {
+                                "en": "Regular / Plain Slice",
+                                "he": "משולש רגיל"
+                            },
+                            "price": 15,
+                            "inStock": true,
+                            "updatedAt": "2026-05-04T13:24:48.862Z"
+                        },
+                        {
+                            "id": "toppings_slice",
+                            "order": 2,
+                            "name": {
+                                "en": "Toppings Slice",
+                                "he": "משולש תוספות"
+                            },
+                            "price": 18,
+                            "inStock": true,
+                            "updatedAt": "2026-05-04T13:24:48.862Z"
+                        }
+                    ]
+                },
+                {
+                    "id": "pizza_pies",
+                    "order": 2,
+                    "name": {
+                        "en": "Pizza Pies",
+                        "he": "מגשים"
+                    },
+                    "items": [
+                        {
+                            "id": "personal_pie",
+                            "order": 1,
+                            "name": {
+                                "en": "Personal Pie",
+                                "he": "פיצה אישית"
+                            },
+                            "price": 52,
+                            "inStock": true,
+                            "updatedAt": "2026-05-04T13:24:48.862Z"
+                        },
+                        {
+                            "id": "family_/_large_pie",
+                            "order": 2,
+                            "name": {
+                                "en": "Family / Large Pie",
+                                "he": "פיצה משפחתית"
+                            },
+                            "price": 88,
+                            "inStock": true,
+                            "updatedAt": "2026-05-04T13:24:48.862Z"
+                        },
+                        {
+                            "id": "focaccia_&_dips",
+                            "order": 3,
+                            "name": {
+                                "en": "Focaccia & Dips",
+                                "he": "פוקאצ'ה ומטבלים"
+                            },
+                            "price": 32,
+                            "inStock": true,
+                            "updatedAt": "2026-05-04T13:24:48.862Z"
+                        }
+                    ]
+                },
+                {
+                    "id": "toppings",
+                    "order": 3,
+                    "name": {
+                        "en": "Toppings",
+                        "he": "תוספות"
+                    },
+                    "items": [
+                        {
+                            "id": "green_/_black_olives,_fresh_mushrooms,_white/red_onion,_jalapeno,_tomatoes",
+                            "order": 1,
+                            "name": {
+                                "en": "Green / Black Olives, Fresh Mushrooms, White/Red Onion, Jalapeno, Tomatoes",
+                                "he": "זיתים ירוקים/שחורים, פטריות, בצל לבן / סגול, פלפל חריף, עגבניות שרי"
+                            },
+                            "price": 5,
+                            "inStock": true,
+                            "updatedAt": "2026-05-04T13:24:48.862Z"
+                        }
+                    ]
+                },
+                {
+                    "id": "premium_toppings",
+                    "order": 4,
+                    "name": {
+                        "en": "Premium Toppings",
+                        "he": "תוספות מיוחדות"
+                    },
+                    "items": [
+                        {
+                            "id": "tuna,_anchovies,_feta_cheese,_goat_cheese,_baby_mozzarella",
+                            "order": 1,
+                            "name": {
+                                "en": "Tuna, Anchovies, Feta Cheese, Goat Cheese, Baby Mozzarella",
+                                "he": "טונה, אנשובי, גבינה בולגרית, גבינת עזים, בייבי מוצרלה"
+                            },
+                            "price": 9,
+                            "inStock": true,
+                            "updatedAt": "2026-05-04T13:24:48.862Z"
+                        }
+                    ]
+                },
+                {
+                    "id": "recommended_specials",
+                    "order": 5,
+                    "name": {
+                        "en": "Recommended Specials",
+                        "he": "מומלצות"
+                    },
+                    "items": [
+                        {
+                            "id": "bootke:_goat_cheese,_pesto_&_honey",
+                            "order": 1,
+                            "name": {
+                                "en": "Bootke: Goat Cheese, Pesto & Honey",
+                                "he": "פיצת הבית: גבינת עיזים, פסטו ודבש"
+                            },
+                            "price": "60/100",
+                            "inStock": true,
+                            "updatedAt": "2026-05-04T13:24:48.862Z"
+                        },
+                        {
+                            "id": "greek:_feta_cheese,_olives_&_onions",
+                            "order": 2,
+                            "name": {
+                                "en": "Greek: Feta Cheese, Olives & Onions",
+                                "he": "יוונית: בולגרית, זיתים ובצל"
+                            },
+                            "price": "60/100",
+                            "inStock": true,
+                            "updatedAt": "2026-05-04T13:24:48.862Z"
+                        },
+                        {
+                            "id": "jerusalem:_olives,_mushrooms,_cherry_tomatoes",
+                            "order": 3,
+                            "name": {
+                                "en": "Jerusalem: Olives, Mushrooms, Cherry Tomatoes",
+                                "he": "ירושלמית: זיתים, פטריות, עגבניות שרי"
+                            },
+                            "price": "60/100",
+                            "inStock": true,
+                            "updatedAt": "2026-05-04T13:24:48.862Z"
+                        }
+                    ]
+                }
+            ],
+            "showCategoryName": true
+        },
+        {
+            "id": "cold_drinks",
+            "order": 8,
+            "name": {
+                "en": "Cold Drinks",
+                "he": "שתיה קלה"
+            },
+            "subCategories": [
+                {
+                    "id": "glass_bottles",
+                    "order": 1,
+                    "name": {
+                        "en": "Glass Bottles",
+                        "he": "בקבוקי זכוכית"
+                    },
+                    "items": [
+                        {
+                            "id": "coca-cola_/_zero",
+                            "order": 1,
+                            "name": {
+                                "en": "Coca-Cola / Zero",
+                                "he": "קולה / זירו"
+                            },
+                            "price": 14,
+                            "inStock": true,
+                            "updatedAt": "2026-05-04T13:24:48.862Z"
+                        },
+                        {
+                            "id": "sprite_/_zero",
+                            "order": 2,
+                            "name": {
+                                "en": "Sprite / Zero",
+                                "he": "ספרייט / זירו"
+                            },
+                            "price": 14,
+                            "inStock": true,
+                            "updatedAt": "2026-05-04T13:24:48.862Z"
+                        },
+                        {
+                            "id": "fuze-team_(iced_tea).",
+                            "order": 3,
+                            "name": {
+                                "en": "Fuze-Tea (Iced Tea)",
+                                "he": "פיוזטי"
+                            },
+                            "price": 14,
+                            "inStock": true,
+                            "updatedAt": "2026-05-04T13:24:48.862Z"
+                        },
+                        {
+                            "id": "flavored_water",
+                            "order": 4,
+                            "name": {
+                                "en": "Flavored Water",
+                                "he": "מים בטעמים"
+                            },
+                            "price": 14,
+                            "inStock": true,
+                            "updatedAt": "2026-05-04T13:24:48.862Z"
+                        },
+                        {
+                            "id": "fresh_orange_juice",
+                            "order": 5,
+                            "name": {
+                                "en": "Fresh Orange Juice",
+                                "he": "תפוזים סחוט"
+                            },
+                            "price": "20/25",
+                            "inStock": true,
+                            "updatedAt": "2026-05-04T13:24:48.862Z"
+                        },
+                        {
+                            "id": "water_/_soda_(sparkling_water)",
+                            "order": 6,
+                            "name": {
+                                "en": "Water / Soda (Sparkling Water)",
+                                "he": "סודה / מים"
+                            },
+                            "price": 10,
+                            "inStock": true,
+                            "updatedAt": "2026-05-04T13:24:48.862Z"
+                        },
+                        {
+                            "id": "lemon-mint_/_grapefruit_/_orange",
+                            "order": 7,
+                            "name": {
+                                "en": "Lemon-Mint / Grapefruit / Orange",
+                                "he": "לימונענע / אשכוליות / תפוזים"
+                            },
+                            "price": 12,
+                            "inStock": true,
+                            "updatedAt": "2026-05-04T13:24:48.862Z"
+                        },
+                        {
+                            "id": "grapes_/_apple_/_strawberry-banana",
+                            "order": 8,
+                            "name": {
+                                "en": "Grapes / Apple / Strawberry-Banana",
+                                "he": "ענבים / תפוחים / תות-בננה"
+                            },
+                            "price": 12,
+                            "inStock": true,
+                            "updatedAt": "2026-05-04T13:24:48.862Z"
+                        },
+                        {
+                            "id": "san_pellegrino",
+                            "order": 9,
+                            "name": {
+                                "en": "San Pellegrino",
+                                "he": "סן פלגרינו"
+                            },
+                            "price": 12,
+                            "inStock": true,
+                            "updatedAt": "2026-05-04T13:24:48.862Z"
+                        }
+                    ]
+                },
+                {
+                    "id": "cans",
+                    "order": 2,
+                    "name": {
+                        "en": "Cans",
+                        "he": "פחיות"
+                    },
+                    "items": [
+                        {
+                            "id": "coca-cola_/_zero",
+                            "order": 1,
+                            "name": {
+                                "en": "Coca-Cola / Zero",
+                                "he": "קולה / זירו"
+                            },
+                            "price": 12,
+                            "inStock": true,
+                            "updatedAt": "2026-05-04T13:24:48.862Z"
+                        },
+                        {
+                            "id": "sprite_/_zero",
+                            "order": 2,
+                            "name": {
+                                "en": "Sprite / Zero",
+                                "he": "ספרייט / זירו"
+                            },
+                            "price": 12,
+                            "inStock": true,
+                            "updatedAt": "2026-05-04T13:24:48.862Z"
+                        },
+                        {
+                            "id": "fanta",
+                            "order": 3,
+                            "name": {
+                                "en": "Fanta",
+                                "he": "פאנטה"
+                            },
+                            "price": 12,
+                            "inStock": true,
+                            "updatedAt": "2026-05-04T13:24:48.862Z"
+                        },
+                        {
+                            "id": "xl_(energy_drink)",
+                            "order": 4,
+                            "name": {
+                                "en": "XL (Energy Drink)",
+                                "he": "XL"
+                            },
+                            "price": 12,
+                            "inStock": true,
+                            "updatedAt": "2026-05-04T13:24:48.862Z"
+                        },
+                        {
+                            "id": "water",
+                            "order": 5,
+                            "name": {
+                                "en": "Water",
+                                "he": "מים"
+                            },
+                            "price": 12,
+                            "inStock": true,
+                            "updatedAt": "2026-05-04T13:24:48.862Z"
+                        }
+                    ]
+                }
+            ],
+            "showCategoryName": true
+        },
+        {
+            "id": "hot_drinks",
+            "order": 9,
+            "name": {
+                "en": "Hot Drinks",
+                "he": "שתיה חמה"
+            },
+            "subCategories": [
+                {
+                    "id": "hot_drinks",
+                    "order": 1,
+                    "name": {
+                        "en": "Hot Drinks",
+                        "he": "שתיה חמה"
+                    },
+                    "items": [
+                        {
+                            "id": "espresso",
+                            "order": 1,
+                            "name": {
+                                "en": "Espresso",
+                                "he": "אספרסו"
+                            },
+                            "price": 10,
+                            "inStock": true,
+                            "updatedAt": "2026-05-04T13:24:48.862Z"
+                        },
+                        {
+                            "id": "cappuccino",
+                            "order": 2,
+                            "name": {
+                                "en": "Cappuccino",
+                                "he": "הפוך"
+                            },
+                            "price": "12/15",
+                            "inStock": true,
+                            "updatedAt": "2026-05-04T13:24:48.862Z"
+                        },
+                        {
+                            "id": "tקש",
+                            "order": 3,
+                            "name": {
+                                "en": "Tea",
+                                "he": "תה"
+                            },
+                            "price": 15,
+                            "inStock": true,
+                            "updatedAt": "2026-05-04T13:24:48.862Z"
+                        },
+                        {
+                            "id": "black_coffee",
+                            "order": 4,
+                            "name": {
+                                "en": "Black Coffee",
+                                "he": "קפה שחור"
+                            },
+                            "price": 12,
+                            "inStock": true,
+                            "updatedAt": "2026-05-04T13:24:48.862Z"
+                        },
+                        {
+                            "id": "americano",
+                            "order": 5,
+                            "name": {
+                                "en": "Americano",
+                                "he": "אמריקנו"
+                            },
+                            "price": "12/15",
+                            "inStock": true,
+                            "updatedAt": "2026-05-04T13:24:48.862Z"
+                        },
+                        {
+                            "id": "chai_latte",
+                            "order": 6,
+                            "name": {
+                                "en": "Chai Latte",
+                                "he": "צ'אי לאטה"
+                            },
+                            "price": 18,
+                            "inStock": true,
+                            "updatedAt": "2026-05-04T13:24:48.862Z"
+                        },
+                        {
+                            "id": "sahlab",
+                            "order": 7,
+                            "name": {
+                                "en": "Sahlab",
+                                "he": "סחלב"
+                            },
+                            "price": 20,
+                            "inStock": true,
+                            "updatedAt": "2026-05-04T13:24:48.862Z"
+                        },
+                        {
+                            "id": "hot_cider",
+                            "order": 8,
+                            "name": {
+                                "en": "Hot Cider",
+                                "he": "סיידר חם"
+                            },
+                            "price": 25,
+                            "inStock": true,
+                            "updatedAt": "2026-05-04T13:24:48.862Z"
+                        }
+                    ]
+                }
+            ],
+            "showCategoryName": false
+        }
+    ],
+    "lastUpdated": "2026-05-04T13:24:48.861Z"
+}

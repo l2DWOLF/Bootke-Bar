@@ -1,8 +1,8 @@
 /* import { connectToAtlasDB } from "./mongodb/atlasMongo.js"; */
 import { connectToLocalMongo } from "./mongodb/localMongo.js";
-import confirg from 'config';
+import config from 'config';
 
-const ENVIRONMENT = confirg.get("ENVIRONMENT");
+const ENVIRONMENT = config.get("ENVIRONMENT");
 
 export const connectToDB = async () => {
     try {
