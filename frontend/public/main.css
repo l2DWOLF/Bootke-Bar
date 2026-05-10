@@ -361,13 +361,16 @@ ul {
 @media (max-width: 900px) {
     main {
         min-width: 100vw;
-        column-count: 1;
-        padding: 1em 1.3em;
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        padding: 1em 0em 3em;
+        gap: 1.5em;
     }
 
     .category {
-        margin-bottom: 1.5em;
-        max-width: 450px;
+        width: 90%;
+        max-width: 533px;
         background: #ffffff;
         padding: 14px 16px;
         border-radius: 10px;
